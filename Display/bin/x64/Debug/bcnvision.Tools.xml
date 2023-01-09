@@ -1,0 +1,1360 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>bcnvision.Tools</name>
+    </assembly>
+    <members>
+        <member name="T:bcnvision.Tools.BcnAdvancedScript">
+            <summary>
+            Clase que gestioa los metodos del AdvancedScript
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnAdvancedScript.dispeObject">
+            <summary>
+            Para asegurar que el dispose solo se hace una vez
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnAdvancedScript.bcnBD">
+            <summary>
+            Para poder guardar valores en la base de datos
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnAdvancedScript.bcnBD_Audit">
+            <summary>
+            Para poder guardar valores en la base de datos de Audit_Trail
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnAdvancedScript.UserName">
+            <summary>
+            Contiene el nombre del usuario conectado.
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnAdvancedScript.cancellationToken">
+            <summary>
+            PAara controlarel cierre de la aplicación
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnAdvancedScript.Recipe">
+            <summary>
+            Receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnAdvancedScript.FolderManager">
+            <summary>
+            Folder manager
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnAdvancedScript.Udp">
+            <summary>
+            Cliente BcnUdp
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnAdvancedScript.logger">
+            <summary>
+            Log
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnAdvancedScript.DisableVisionSystems">
+            <summary>
+            Dispositivos que estan deshabilitados
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnAdvancedScript.LastLoadedRecipe">
+            <summary>
+            Ultima receta cargarda
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.Dispose">
+            <summary>
+            Metodo para 
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.Evaluate(System.Int32,System.String)">
+             <summary>
+             Metodo para la evaluacion de los resultados
+             </summary>
+             <param name="Index">Indice del sistema de vision</param>
+            <param name="ResultPath">Contenedor de resultados e imagenes. Si el dispositivo es un dataman envia la lectura como ResultPath</param>
+             <returns>Si devuelve true enviara notificacion para actualizar el hmi con el FinalResult</returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.LoadRecipe(System.String)">
+            <summary>
+            Metodo para cargar la receteca para el analisis general de resultado
+            </summary>
+            <param name="RecipeLoaded"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.Notify(System.String,System.String)">
+            <summary>
+            Metodo para notificar mensajes desde el Core al Advace Result Ananlisys
+            </summary>
+            <param name="Tag"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.Coms_OnValueChanged(System.String,System.String)">
+            <summary>
+            Evento cambio en las coms
+            </summary>
+            <param name="Tag"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.OnLoadRecipe(System.String)">
+            <summary>
+            Metodo para cargar la receteca para el analisis general de resultado
+            </summary>
+            <param name="RecipeLoaded"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.Disposing">
+            <summary>
+            Metodo para que el child pueda hacer un dispose
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.NewPart(bcnvision.Data.BcnResultContainer,System.Int32)">
+            <summary>
+            Crea un nuevo registro para poder guardarlo.
+            </summary>
+            <param name="result"></param>
+            <param name="Index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.SavePart(bcnvision.Tools.BcnBD.Part)">
+            <summary>
+            Guardar el registro a la Base de Datos
+            </summary>
+            <param name="part"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.AddPartToSummary(bcnvision.Tools.BcnBD.Part)">
+            <summary>
+            guardar temporalmente la pieza en el resumen de piezas
+            </summary>
+            <param name="part"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.GetSummaryParts">
+            <summary>
+            Devuelve la lista de piezas acumulada, y la resetea para volver a acumular a partir de este momento. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.SaveSummaryParts">
+            <summary>
+            Para guardar la lista de piezas acumulada, no usar GetSummaryParts en caso de llamar a esta función
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.SaveAudit(System.String,System.String,System.String)">
+            <summary>
+            Guarda un registro en la BBDD de Audit Trail
+            </summary>
+            <param name="message"></param>
+            <param name="prevValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnAdvancedScript.Udp_OnValueChanged(System.String,System.String)">
+            <summary>
+            Evento nuevo mensaje por udp
+            </summary>
+            <param name="Tag">Nombre de la tag</param>
+            <param name="Value">Valor</param>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD_Audit">
+            <summary>
+            Clase para manejar la base de datos de estadisticas
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD_Audit.SafeTokenHandle">
+            <summary>
+            Clase para la impersonificacion
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD_Audit.CSqlResource">
+            <summary>
+            Clase para obtener querys de un fichero de recursos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.CSqlResource.GetQueryByName(System.String)">
+            <summary> Returns query from file storage. </summary>
+            <param name="name"></param>
+            <returns></returns>
+            <remarks></remarks>
+            
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD_Audit.SqlQuery">
+            <summary>
+            Clase que define una query dentro de un fichero de recursos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD_Audit.SqlQuery.name">
+            <summary>
+            Nombre identificador de la query
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD_Audit.SqlQuery.sql">
+            <summary>
+            Instruccion Sql de la query
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD_Audit.ConnectionString">
+            <summary>
+            Devuelve el texto de la conexión a la BBDD.
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.#ctor(System.Action{System.String},System.String,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Constructor de la clase.
+            </summary>
+            <param name="errorMessageAction">Se le debe pasar un funcion como logger.Error</param>
+            <param name="folderPath"></param>
+            <param name="DaysExpirationLogs"></param>
+            <param name="FileType"></param>
+            <param name="saveDailyLogs"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.InitConnection">
+            <summary>
+            Metodo para iniciar la conexión a la Base de Datos, devuelve el objeto de la connexión
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.CloseConnection">
+            <summary>
+            Metodo para cerrar la conexión
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.InsertData(System.String,System.String,System.String,System.String)">
+            <summary>
+            Metodo para insertar un registro de resultado a la BBDD de Audit Trail.
+            </summary>
+            <param name="userName"></param>
+            <param name="action"></param>
+            <param name="prevValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.GetData(System.String,System.String)">
+            <summary>
+            Funcion que devuelve una lista de logs que permite
+            </summary>
+            <param name="textInFile"></param>
+            <param name="restOfMessage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.setParam(System.DateTime)">
+            <summary>
+            Guarda la ultima fecha de los datos devueltos
+            </summary>
+            <param name="date"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD_Audit.SaveLogs(System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Funcion que busca los logs y los grava
+            </summary>
+            <param name="textInFile"></param>
+            <param name="restOfMessage"></param>
+            <param name="Path"></param>
+            <param name="DaysExpirationLogs"></param>
+            <param name="FileType"></param>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD">
+            <summary>
+            Clase para manejar la base de datos de estadisticas
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.bdResult">
+            <summary>
+            Posibles valores de resultado
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.bdResult.Accept">
+            <summary>
+            Pieza Buena
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.bdResult.Reject">
+            <summary>
+            Pieza Mala
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.bdResult.Error">
+            <summary>
+            Pieza con Error
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.Filter">
+            <summary>
+            Clase para el Filtro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Filter.Name">
+            <summary>
+            Nombre del filtro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Filter.Value">
+            <summary>
+            Valor del filtro
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Filter.Equals(bcnvision.Tools.BcnBD.Filter)">
+            <summary>
+            Implementacion para comparar
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Filter.getFilter">
+            <summary>
+            Obtiene el filtro en modo string para poder insertarlo en la BBDD
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.Production_Property">
+            <summary>
+            Clase para una propiedad de la pieza
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Production_Property.System">
+            <summary>
+            Nombre del VisionSystem
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Production_Property.Name">
+            <summary>
+            Nombre de la propiedad
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Production_Property.Value">
+            <summary>
+            Valor de la propiedad
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Production_Property.Min">
+            <summary>
+            Valor minimo para que sea buena
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Production_Property.Max">
+            <summary>
+            Valor maximo para que sea buena
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Production_Property.Offset">
+            <summary>
+            Valor del Offset a aplicar
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Production_Property.Equals(bcnvision.Tools.BcnBD.Production_Property)">
+            <summary>
+            Implementacion para comparar
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Production_Property.getProperty">
+            <summary>
+            Obtiene la propiedada en modo string para poderla insertar a la BBDD
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.Part">
+            <summary>
+            Para contener la informacion de una pieza.
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.Part.Filters">
+            <summary>
+            Lista de filtros
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.Part.result">
+            <summary>
+            Resultado
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.Part.Date">
+            <summary>
+            Fecha
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.Part.Properties">
+            <summary>
+            Lista de propiedades
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.Part.listSystems">
+            <summary>
+            Lista de VisionSystems que particioan en el resultado de la pieza
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Part.Result">
+            <summary>
+            Asigna el máximo del Valor.
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Part.AddFilter(System.String,System.String)">
+            <summary>
+            Funcion Para añadir un filtro
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Part.AddProperty(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Funcion para añadir o modificar una propiedad.
+            </summary>
+            <param name="system"></param>
+            <param name="name"></param>
+            <param name="value"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <param name="offset"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Part.AddProperty(System.String,System.String,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Funcion para añadir una propiedad y recalculando el resultado final (Uso en el AdvancedScript)
+            </summary>
+            <param name="system"></param>
+            <param name="name"></param>
+            <param name="value"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <param name="offset"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Part.Equals(bcnvision.Tools.BcnBD.Part)">
+            <summary>
+            Implementacion para comparar con otra pieza
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Part.Equals(System.Collections.Generic.List{bcnvision.Tools.BcnBD.Filter})">
+            <summary>
+             Implementacion para comparar con una lista de filtros
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.Summary_Production_Property">
+            <summary>
+            Clase para una propiedad de la pieza
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.System">
+            <summary>
+            Nombre del VisionSystem
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.Name">
+            <summary>
+            Nombre de la propiedad
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.Total">
+            <summary>
+            Contador de totales
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.NOK">
+            <summary>
+            Contador de no OK
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.Average">
+            <summary>
+            Valor medio
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.Min">
+            <summary>
+            Valor minimo para que sea buena
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.Summary_Production_Property.Max">
+            <summary>
+            Valor maximo para que sea buena
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Summary_Production_Property.Equals(bcnvision.Tools.BcnBD.Summary_Production_Property)">
+            <summary>
+            Implementacion para comparar
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Summary_Production_Property.Equals(bcnvision.Tools.BcnBD.Production_Property)">
+            <summary>
+            Implementacion para comparar
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Summary_Production_Property.getProperty">
+            <summary>
+            DEvuelvve la propiedad como string
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.SummaryParts">
+            <summary>
+            Para contener la informacion de una pieza.
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.Filters">
+            <summary>
+            Lista de filtros
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.Init_Date">
+            <summary>
+            Fecha Inicial
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.Fin_Date">
+            <summary>
+            Fecha Final
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.OK">
+            <summary>
+            Contador de buenas
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.NOK">
+            <summary>
+            Contador de malas
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.ERROR">
+            <summary>
+            Contador de errores
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnBD.SummaryParts.Properties">
+            <summary>
+            Lista de propiedades
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.SummaryParts.AddFilter(System.String,System.String)">
+            <summary>
+            Funcion Para añadir un filtro
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.SummaryParts.AddProperty(System.String,System.String,System.Int32,System.Int32,System.Double,System.Double,System.Double)">
+            <summary>
+            Funcion para añadir o modificar una propiedad.
+            </summary>
+            <param name="system"></param>
+            <param name="name"></param>
+            <param name="total"></param>
+            <param name="nok"></param>
+            <param name="average"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.SummaryParts.AddPart(bcnvision.Tools.BcnBD.Part)">
+            <summary>
+            Funcion para añadir una pieza al final de las piezas
+            </summary>
+            <param name="part"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.SummaryParts.Equals(System.Collections.Generic.List{bcnvision.Tools.BcnBD.Filter})">
+            <summary>
+             Implementacion para comparar con una lista de filtros
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.CSqlResource">
+            <summary>
+            Clase para obtener querys de un fichero de recursos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.CSqlResource.GetQueryByName(System.String)">
+            <summary> Returns query from file storage. </summary>
+            <param name="name"></param>
+            <returns></returns>
+            <remarks></remarks>
+            
+        </member>
+        <member name="T:bcnvision.Tools.BcnBD.SqlQuery">
+            <summary>
+            Clase que define una query dentro de un fichero de recursos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.SqlQuery.name">
+            <summary>
+            Nombre identificador de la query
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.SqlQuery.sql">
+            <summary>
+            Instruccion Sql de la query
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnBD.ConnectionString">
+            <summary>
+            Devuelve el texto de la conexión a la BBDD.
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.#ctor(System.Action{System.String},System.Int32,System.String)">
+            <summary>
+            Constructor de la clase.
+            </summary>
+            <param name="errorMessageAction">Se le debe pasar un funcion como logger.Error</param>
+            <param name="port">Para enviar las piezas a grabar mediante otra conexion</param>
+            <param name="folderAppDataLocal"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.InitConnection">
+            <summary>
+            Metodo para iniciar la conexión a la Base de Datos, devuelve el objeto de la connexión
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.CloseConnection">
+            <summary>
+            Metodo para cerrar la conexión
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.newPart(System.Collections.Generic.List{bcnvision.Tools.BcnBD.Filter},bcnvision.Data.BcnResultContainer,System.DateTime,System.String,System.Boolean)">
+            <summary>
+            Funcion para guardar una pieza, si ya existe la modifica.
+            </summary>
+            <param name="filters"></param>
+            <param name="resultContainer"></param>
+            <param name="date"></param>
+            <param name="IndexName"></param>
+            <param name="addToList">Indica si debemos controlarlo a traves de la lista, en el caso de añadir nuevos filtros </param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.DeletePart(bcnvision.Tools.BcnBD.Part)">
+            <summary>
+            Elimina la pieza de la lista.
+            </summary>
+            <param name="part"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.ResetData">
+            <summary>
+            Eliminamos la lista de piezas.
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.AddPartToSummary(bcnvision.Tools.BcnBD.Part)">
+            <summary>
+            Añadimos la pieza n la lista.
+            </summary>
+            <param name="part"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.GetSummaryParts">
+            <summary>
+            Devuelve la lista acumulada de piezas hasta este momento
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Save(System.Collections.Generic.List{bcnvision.Tools.BcnBD.SummaryParts})">
+            <summary>
+            Función que guarda em la BBDD una lista de piezas
+            </summary>
+            <param name="summaryParts"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.ExecuteCommand(System.String)">
+            <summary>
+            Ejecuta un Script con uno o varios comandos a la misma vez.
+            </summary>
+            <param name="command"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnBD.Optimize">
+            <summary>
+            Ejecuta el metodo Optimize que pasa de las tablas con los resumenes de cada 5 minutos a las tabla de resumen diario.
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnConfigFileEditor">
+            <summary>
+            Interaction logic for UserControl1.xaml
+            </summary>
+            <summary>
+            BcnConfigFileEditor
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnConfigFileEditor.ComunicationDeviceList">
+            <summary>
+            Lista de dispositivos para la comunicación.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnConfigFileEditor.AcquisitionDeviceList">
+            <summary>
+            Lista de dispositivos para la adquisición.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnConfigFileEditor.FilmStripConditionList">
+            <summary>
+            Lista de condiciones para la visualización de la película. 
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnConfigFileEditor.SaveImagesConditionList">
+            <summary>
+            Lista de condiciones para grabar las imagenes
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.#ctor">
+            <summary>
+            Constructor por defecto de la vista
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.SetContent(System.String)">
+            <summary>
+            Inicializa el editor con el fichero XML especificado
+            </summary>
+            <param name="xmlPath">Fichero XML debe ser del tipo BcnConfigFile</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.SetContent">
+            <summary>
+            Inicializa el editor con el fichero XML especificado, se llama cada vez que se requiere cargar el contenido del fichero.
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.GetContent">
+            <summary>
+            Obtiene un XMLDocument con todo el contenido editado
+            </summary>
+            <returns>Devuelve el documento XML</returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.NewNode(System.Windows.Controls.Grid,System.Xml.XmlDocument)">
+            <summary>
+            Crea un nuevo nodo hijo.
+            </summary>
+            <param name="control">Grid que contenedor del nuevo nodo</param>
+            <param name="doc">XMLDocument con el contenido de la configuración</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.NestedControlPlacement(System.Windows.Controls.StackPanel,System.Xml.XmlNode)">
+            <summary>
+            Crea el contenido del nodo, dependiendo del tipo de nodo, creará un ComboBox, CheckBox, Textbox, Label (si es un comentario) o un grid si es un contenedor de otros nodos.
+            </summary>
+            <param name="sp">StackPanel contenedor del nodo</param>
+            <param name="xn">Nodo con la información a crear</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.CollapseNode(System.Windows.Controls.Grid,System.Boolean)">
+            <summary>
+            Se utiliza para recorrer recursivamente todo el arbol de nodos, escondiendo o visualizando los nodos según el valor que se le pasa.
+            </summary>
+            <param name="control">Grid donde empieza totdo el recorrido</param>
+            <param name="value">Si es verdadero, se tiene que esconder, sino visualizar</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.NewVisionSystem(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Évento para el botón destinado a crear un nuevo Sistema de Visión
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.RemoveVisionSystem(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Évento para el botón destinado a eliminar el Sistema de Visión
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.CreateComboBox(System.Windows.Controls.StackPanel,System.Xml.XmlNode,System.String[])">
+            <summary>
+            Crea un control combobox con una lista de valores
+            </summary>
+            <param name="sp">StackPanel contenedor del nuevo combo</param>
+            <param name="xn">Nodo con la información a seleccionar en el combo</param>
+            <param name="values">Lista de Valores</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.collapseButtonClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Esconde o Visualiza el contenido que depende del nodo
+            </summary>
+            <param name="sender">TextBlock que contiene si el botón esta visualizado o no</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.CollapseDecollapseAll(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Recorre todo el arbol y visualiza o esconde todos los nodos que dependen del nodo Raiz (Config), exceptuando el nodo Raiz
+            </summary>
+            <param name="sender">TextBlock que contiene si el botón esta visualizado o no</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.SaveChanges(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Guarda los cambios en el fichero XML.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.Reload(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Vuelve a cargar el fichero XML, perdiendo todos los cambios efectuados.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnConfigFileEditor.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnDLWrapper">
+            <summary>
+            Clase para un DL clasify
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnDLWrapper.Answer">
+            <summary>
+            Answer
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.#ctor(System.String,System.String[],System.Boolean,System.Diagnostics.ProcessWindowStyle,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="ScriptPath"></param>
+            <param name="Args"></param>
+            <param name="StartProcess">Indica si queremos arrancar el proceso, es para debugar</param>
+            <param name="windowStyle"></param>
+            <param name="title">Titulo de la ventana</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.TrainClassify(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Single,System.Boolean)">
+             <summary>
+             Metodo para entrenar la red neuronal de classificacion
+             </summary>
+             <param name="ImagesDir"></param>
+             <param name="Model_name"></param>
+             <param name="NumberOfClasses"></param>
+             <param name="BatchSize"></param>
+             <param name="Epochs"></param>
+             <param name="Feature_Extract">Si true se utilzia la red pre-entrenada si false, se entrena desde 0</param>
+            <param name="ResetModel">Indica si se entrena el modelo desde zero</param>
+            <param name="Use_Pretrained">Indica si se usa un modelo preentrenado</param>
+            <param name="LearningRate">Learning rate</param>
+            <param name="UseDataAugmentation">Indica si se va a utilizar augmento de datos</param>
+             <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.LoadClassifyModel(System.String,System.String,System.Int32,System.Boolean,System.Boolean)">
+             <summary>
+             Metodo para la carga del modelo
+             </summary>
+             <param name="ModelPath">Ruta</param>
+             <param name="ModelName">Nombre</param>
+             <param name="NumberOfClasses">Numero de clases</param>
+            <param name="FeatureExtract"> Flag for feature extracting.When False, we finetune the whole model, when True we only update the reshaped layer params</param>
+            <param name="Use_Pretrained">Indica si se usa el modelo preentrenado</param>
+             <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.ClassifyInference(System.String)">
+            <summary>
+            Metodo para procesa una imagen
+            </summary>
+            <param name="ImagePath">Ruta de procesado</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.SaveClassifyModel(System.String,System.String)">
+            <summary>
+            Metodo para guardar el modelo
+            </summary>
+            <param name="OutputModelPath">Ruta para guardar el modelo</param>
+            <param name="ModelName">Nombre del modelo</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.StartProgressBar(System.Int32,System.String)">
+            <summary>
+            Arrancamos la barra de progreso
+            </summary>
+            <param name="iterations"></param>
+            <param name="message">Mensaje a mostrar</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.UpdateProgressBar(System.Int32)">
+            <summary>
+            Arrancamos la barra de progreso
+            </summary>
+            <param name="iterate">valores a iterar</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.ClearWindow">
+            <summary>
+            Borra la consola de python
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.TrainDetector(System.String,System.Int32,System.Int32,System.Int32,System.Single,System.String,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="DataPath"></param>
+            <param name="NumberOfClasses"></param>
+            <param name="BatchSize"></param>
+            <param name="Epochs"></param>
+            <param name="LearningRate"></param>
+            <param name="Architecture"></param>
+            <param name="Threshold"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.SaveModelDetector(System.String,System.String)">
+            <summary>
+            Metodo para guardar el modelo
+            </summary>
+            <param name="OutputModelPath">Ruta para guardar el modelo</param>
+            <param name="ModelName">Nombre del modelo</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.LoadModelDetector(System.String,System.Int32,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="ModelPath"></param>
+            <param name="NumberOfClasses"></param>
+            <param name="Threshold"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnDLWrapper.DetectorInference(System.String,System.Boolean)">
+            <summary>
+            Metodo para procesa una imagen
+            </summary>
+            <param name="ImagePath">Ruta de procesado</param>
+            <param name="WriteImage"></param>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnFolderManager">
+            <summary>
+            Classe para la gestion de la estructura de capertas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DrvBinary">
+            <summary>
+            Particion donde estan los binarios
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DrvData">
+            <summary>
+            Particion donde estan los datos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DrvStore">
+            <summary>
+            Particion donde estan los datos (no se usa)
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DrvFastTmp">
+            <summary>
+            Particion rapida de intercambio de ficheros 
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.OF">
+            <summary>
+            OF de la aplicación
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.Client">
+            <summary>
+            Cliente
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.Project">
+            <summary>
+            Proyecto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.Instance">
+            <summary>
+            Instancia
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.RootOnBinaryDevice">
+            <summary>
+            Directorio donde ir a buscar los binarios
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.RootOnDataDevice">
+            <summary>
+            Directorio donde ir a buscar los datos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.RootOnStoreDevice">
+            <summary>
+            Directorio donde ir a buscar los datos (no se usa)
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.BinariesFolder">
+            <summary>
+            Directorio donde ir a buscar los binarios
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DataFolder">
+            <summary>
+            Directorio donde ir a buscar los datos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.RecipesFolder">
+            <summary>
+            Directorio de las recetas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.ProgsFolder">
+            <summary>
+            Directorio de los Progs
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.ConfigFolder">
+            <summary>
+            Directorio de la Configuracion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.LanguageFile">
+            <summary>
+            Fichero del lenguaje (no se usa)
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.FastTempFolder">
+            <summary>
+            Directorio temporal de la carpeta de intercambio de imagenes
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DocFolder">
+            <summary>
+            Directorio de la Documentacion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DefaultConfigurationFile">
+            <summary>
+            Fichero de configuraciónde Cortex
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.AppDataFolder">
+            <summary>
+            Directorio de la BBDD
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.ImagesFolder">
+            <summary>
+            Directorio raiz donde se guardan las imagenes
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.ScriptsPolyworksFolder">
+            <summary>
+            Directorio para los scripts del Polyworks
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.CoakeProject">
+            <summary>
+            Directorio del proyecto Coake
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.UsersFile">
+            <summary>
+            Fichero de la base de datos de los usuarios
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.KaptureFolder">
+            <summary>
+            Carpeta de Kapture
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.BcnDeepLearningFolder">
+            <summary>
+            Carpeta del DeepLearning
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.BcnDLFolder">
+            <summary>
+            Carpeta del BcnDL
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.NLogArchievesFolder">
+            <summary>
+            Carpeta de los archivos NLog
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnFolderManager.DLPythonFolder">
+            <summary>
+            Carpeta de la PythonFolder
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnFolderManager.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnFolderManager.VerifyRegistry">
+            <summary>
+            Verifica si existe la clave del registro, en caso contrario la intenta crear
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnFolderManager.Read(Microsoft.Win32.RegistryKey,System.String,System.String)">
+            <summary>
+            Lee un valor en la clave de registro
+            </summary>
+            <param name="regKey"></param>
+            <param name="keyName"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnFolderManager.Write(Microsoft.Win32.RegistryKey,System.String,System.String)">
+            <summary>
+            Escribe un valor en una clave de registro
+            </summary>
+            <param name="regKey"></param>
+            <param name="keyName"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnFolderManager.Save">
+            <summary>
+            Graba toda la configuración en la clave de registro
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnHalcon">
+            <summary>
+            Clase para la gestion de Halcon
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnHalcon.MyEngine">
+            <summary>
+            Motor de Halcon
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnHalcon.ProgramCall">
+            <summary>
+            Programa de Halcon
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnHalcon.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnHalcon.Dispose">
+            <summary>
+            Liberar recursos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnHalcon.Run(System.Collections.Generic.List{HalconDotNet.HTuple})">
+            <summary>
+            Ejecuta el procedure de Halcon
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnOnnx">
+            <summary>
+            Clase para la gestion de archivos Onnx
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnOnnx.session">
+            <summary>
+            Session de onnx
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnOnnx.DLContainer">
+            <summary>
+            Container con los ajustes del deep learning
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.#ctor(bcnvision.Data.BcnDLContainer,System.String,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="DLContainer"></param>
+            <param name="OnnxPath"></param>
+            <param name="UseGpu"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.#ctor(System.String,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="OnnxPath"></param>
+            <param name="UseGpu"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.Constructor(System.String,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="OnnxPath"></param>
+            <param name="UseGpu"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.Dispose">
+            <summary>
+            Liberamos los recursos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.SoftmaxFunction(System.Single[])">
+            <summary>
+            Calculo de softmax
+            </summary>
+            <param name="hoSums"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.ImagePreprocessing(bcnvision.Data.BcnRawImage,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Preprocesado de imagen
+            </summary>
+            <param name="image"></param>
+            <param name="channels"></param>
+            <param name="Height"></param>
+            <param name="Width"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.Run(bcnvision.Data.BcnRawImage)">
+            <summary>
+            Ejecutamos la red neuronal para classificacion de imagenes
+            </summary>
+            <param name="Input">Imagen de entrada</param>
+            <returns>Devuelve una lista con las clases y sus predicciones ordenadas de mayor a menor</returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnOnnx.RunSegmentation(bcnvision.Data.BcnRawImage)">
+            <summary>
+            Ejecutamos la red neuronal para segmentacion de iamgenes
+            </summary>
+            <param name="Input">Imagen de entrada</param>
+            <returns>Devuelve una lista cons las mascaras detectadas </returns>
+        </member>
+        <member name="T:bcnvision.Tools.BcnPolyworks">
+            <summary>
+            Clase para la gestion de polyworks
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.#ctor(System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="NInspectors">Numero de ventanas abiertas de inspector</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.Dispose">
+            <summary>
+            Liberar recursos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.CloseInspectors">
+            <summary>
+            Metodo para cerrar los proyectos de inspector
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.UploadPointCloud(bcnvision.Data.BcnPointCloud,System.Int32,System.String)">
+            <summary>
+            Metodo para cargar un poincloud en polywors
+            </summary>
+            <param name="PointCloud"></param>
+            <param name="InspectorIndex"></param>
+            <param name="PolyworksPointCloudName"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.LoadWorkSpaceAndInspector(System.String,System.String[])">
+            <summary>
+            Metodo para cargar el workspace
+            </summary>
+            <param name="WorkSpacePath"></param>
+            <param name="InspectorsName"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.RunScript(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="InspectorIndex"></param>
+            <param name="ScriptPath"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPolyworks.CommandExecute(System.Int32,System.String)">
+            <summary>
+            Ejecuta un comando en polyworks
+            </summary>
+            <param name="InspectorIndex"></param>
+            <param name="Command"></param>
+        </member>
+        <member name="T:bcnvision.Tools.BcnPythonScript">
+            <summary>
+            Clase para la gestion de scripts de python
+            </summary>
+        </member>
+        <member name="T:bcnvision.Tools.BcnPythonScript.OnMessageEvent">
+            <summary>
+            
+            </summary>
+            <param name="Tag"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="E:bcnvision.Tools.BcnPythonScript.OnMessage">
+            <summary>
+            Evento imagen
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnPythonScript.PythonProcess">
+            <summary>
+            Python process
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnPythonScript.Udp">
+            <summary>
+            Comunicacion por udp
+            </summary>
+        </member>
+        <member name="F:bcnvision.Tools.BcnPythonScript.IsReady">
+            <summary>
+            Indica si el sistema esta ready 
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPythonScript.#ctor(System.String,System.String[],System.Boolean,System.Diagnostics.ProcessWindowStyle,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="ScriptPath"></param>
+            <param name="Args"></param>
+            <param name="StartProcess">Indica si queremos arrancar el proceso, es para debugar</param>
+            <param name="windowStyle"></param>
+            <param name="Title"></param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPythonScript.Dispose">
+            <summary>
+            Liberar Recursos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPythonScript.Write(System.String,System.String)">
+            <summary>
+            Envia un mensaje al script de python
+            </summary>
+            <param name="Tag"></param>
+            <param name="Value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Tools.BcnPythonScript.SetWindowStyle(System.Diagnostics.ProcessWindowStyle)">
+            <summary>
+            Metodo para cambiar el estilo de la ventana
+            </summary>
+            <param name="Style"></param>
+        </member>
+        <member name="T:bcnvision.Tools.BcnXmlFile">
+            <summary>
+            Clase que gestiona la lectura de un arhcivo xml
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnXmlFile.XmlPath">
+            <summary>
+            Ruta del xml
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnXmlFile.xdoc">
+            <summary>
+            Xml doc
+            </summary>
+        </member>
+        <member name="P:bcnvision.Tools.BcnXmlFile.RootName">
+            <summary>
+            Nodo principal
+            </summary>
+        </member>
+        <member name="M:bcnvision.Tools.BcnXmlFile.#ctor(System.String,System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="XmlPath"></param>
+            <param name="FirstXmlNode">PrimerNodo del xml</param>
+        </member>
+        <member name="M:bcnvision.Tools.BcnXmlFile.Save">
+            <summary>
+            Metodo para guardar el xml
+            </summary>
+        </member>
+        <member name="E:bcnvision.Tools.BcnXmlFile.PropertyChanged">
+            <summary>
+            Evento para mostrar un cambio en la propiedad
+            </summary>
+        </member>
+    </members>
+</doc>

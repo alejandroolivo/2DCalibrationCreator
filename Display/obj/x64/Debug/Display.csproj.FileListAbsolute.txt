@@ -1,0 +1,538 @@
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\NLog.config
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Display.exe.config
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Display.exe
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Display.pdb
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\NLog.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\stdole.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.pdb
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\NLog.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\MainWindow.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Views\Header.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\App.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display_Content.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display_MarkupCompile.cache
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display_MarkupCompile.lref
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\MainWindow.baml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Views\Header.baml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.g.resources
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.Properties.Resources.resources
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csproj.CopyComplete
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.exe
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\NLog.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Display.exe.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Display.exe
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Display.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\NLog.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\QWhale.Editor.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\QWhale.Syntax.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\QWhale.Syntax.Parsers.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\QWhale.Common.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\stdole.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\NLog.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.exe.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\MainWindow.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Views\Header.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\App.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display_Content.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display_MarkupCompile.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display_MarkupCompile.lref
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\MainWindow.baml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Views\Header.baml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.g.resources
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.Properties.Resources.resources
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csproj.CopyComplete
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.exe
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Emgu.CV.World.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\bcnvision.Data.dll.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\Emgu.CV.World.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\NLog.config
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Display.exe.config
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Display.exe
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Display.pdb
+G:\Maxion licencia\Display\Display\bin\x64\Debug\bcnvision.Data.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\NLog.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Emgu.CV.World.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\stdole.dll
+G:\Maxion licencia\Display\Display\bin\x64\Debug\bcnvision.Data.pdb
+G:\Maxion licencia\Display\Display\bin\x64\Debug\bcnvision.Data.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\bcnvision.Data.dll.config
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\NLog.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Emgu.CV.World.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+G:\Maxion licencia\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.exe.config
+G:\Maxion licencia\Display\Display\obj\x64\Debug\MainWindow.g.cs
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Views\Header.g.cs
+G:\Maxion licencia\Display\Display\obj\x64\Debug\App.g.cs
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display_Content.g.cs
+G:\Maxion licencia\Display\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display_MarkupCompile.cache
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display_MarkupCompile.lref
+G:\Maxion licencia\Display\Display\obj\x64\Debug\MainWindow.baml
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Views\Header.baml
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.g.resources
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.Properties.Resources.resources
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.csproj.CopyComplete
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.exe
+G:\Maxion licencia\Display\Display\obj\x64\Debug\Display.pdb
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\NLog.config
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Display.exe.config
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Display.exe
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Display.pdb
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\bcnvision.Data.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\NLog.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Emgu.CV.World.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\stdole.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\bcnvision.Data.pdb
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\bcnvision.Data.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\bcnvision.Data.dll.config
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\NLog.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Emgu.CV.World.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.exe.config
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Views\Header.g.cs
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\App.g.cs
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display_Content.g.cs
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display_MarkupCompile.cache
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display_MarkupCompile.lref
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\MainWindow.baml
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Views\Header.baml
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.g.resources
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.Properties.Resources.resources
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.csproj.CopyComplete
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.exe
+C:\Users\User\Desktop\Display\Display\obj\x64\Debug\Display.pdb
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Emgu.CV.UI.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\ZedGraph.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Emgu.CV.UI.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\ZedGraph.xml
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\de\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\es\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\fr\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\hu\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\it\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\ja\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\pt\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\ru\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\sk\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\sv\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\tr\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.dll
+C:\Users\User\Desktop\Display\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.xml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.exe.config
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Views\Header.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\App.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display_Content.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.lref
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.exe
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.pdb
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\NLog.config
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Display.exe.config
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Display.exe
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Display.pdb
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\NLog.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Emgu.CV.World.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\stdole.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.pdb
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll.config
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\NLog.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Emgu.CV.World.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\MainWindow.baml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Views\Header.baml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.g.resources
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.Properties.Resources.resources
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.csproj.CopyComplete
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Debug\Display.UserControl1.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\NLog.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Display.exe.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Display.exe
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Display.pdb
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\NLog.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Emgu.CV.World.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\stdole.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.pdb
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\NLog.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Emgu.CV.World.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.exe.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Views\Header.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\App.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display_Content.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.lref
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\MainWindow.baml
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Views\Header.baml
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.g.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.UserControl1.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.Properties.Resources.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.csproj.CopyComplete
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.exe
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Debug\Display.pdb
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\NLog.config
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Display.exe.config
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Display.exe
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Display.pdb
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\NLog.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Emgu.CV.World.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\stdole.dll
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.pdb
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll.config
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Emgu.CV.Platform.NetStandard.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\NLog.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Emgu.CV.World.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+D:\Maxion licencia\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.exe.config
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\MainWindow.g.cs
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Views\Header.g.cs
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\App.g.cs
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display_Content.g.cs
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.cache
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.lref
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\MainWindow.baml
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Views\Header.baml
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.g.resources
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.UserControl1.resources
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.Properties.Resources.resources
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.csproj.CopyComplete
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.exe
+D:\Maxion licencia\Display - ptb\Display\obj\x64\Debug\Display.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.csprojAssemblyReference.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\MainWindow.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Views\Header.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\App.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display_Content.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display_MarkupCompile.lref
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.exe
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\NLog.config
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Display.exe.config
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Display.exe
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Display.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Controls.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\NLog.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\stdole.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Data.dll.config
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Core.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.CorePlus.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Display.Controls.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\NLog.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Display.Controls.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Graphic.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageFile.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ImageProcessing.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.Core.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.FGGigE.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro3D.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.ToolGroup.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\MainWindow.baml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Views\Header.baml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.g.resources
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.Properties.Resources.resources
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.csproj.GenerateResource.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.csproj.CoreCompileInputs.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Display.csproj.CopyComplete
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Tools.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Communications.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\FirebirdSql.Data.FirebirdClient.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\itext.layout.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\itext.kernel.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\hdevenginedotnet.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\halcondotnet.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Microsoft.ML.OnnxRuntime.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Memory.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\ABB.Robotics.Controllers.PC.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Automation.BDaq.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Comm.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\ClassActors.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\CifxCSDriverDLL.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\itext.io.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Common.Logging.Core.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Common.Logging.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\BouncyCastle.Crypto.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Numerics.Vectors.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Buffers.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\RobotStudio.Services.RobApi.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\RobotStudio.Services.RobApi.Desktop.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Tools.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Tools.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Tools.dll.config
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Communications.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\bcnvision.Communications.dll.config
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\itext.layout.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\itext.kernel.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Microsoft.ML.OnnxRuntime.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Memory.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\ABB.Robotics.Controllers.PC.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Cognex.VisionPro.Comm.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\ClassActors.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\CifxCSDriverDLL.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\itext.io.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Common.Logging.Core.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Common.Logging.Core.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Common.Logging.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\Common.Logging.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\BouncyCastle.Crypto.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Numerics.Vectors.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Buffers.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\SharpDX.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\SharpDX.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\SharpDX.Mathematics.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Themes\Icons.baml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\obj\x64\Debug\Themes\OptionsStyles.baml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\WpfIconButtonControlLibrary.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\Display\bin\x64\Debug\WpfIconButtonControlLibrary.pdb

@@ -1,0 +1,38 @@
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\bin\Debug\WpfIconButtonControlLibrary.dll
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\bin\Debug\WpfIconButtonControlLibrary.pdb
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csprojAssemblyReference.cache
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary_MarkupCompile.cache
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary_MarkupCompile.lref
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\Themes\Generic.baml
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.g.resources
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.Properties.Resources.resources
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csproj.GenerateResource.cache
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csproj.CoreCompileInputs.cache
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.dll
+C:\Users\alejandro.olivo\Downloads\CustomIconButton-master\CustomIconButton-master\WpfIconButtonDemo\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\bin\Debug\WpfIconButtonControlLibrary.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\bin\Debug\WpfIconButtonControlLibrary.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary_MarkupCompile.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary_MarkupCompile.lref
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\Themes\Generic.baml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.g.resources
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.Properties.Resources.resources
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csproj.GenerateResource.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csproj.CoreCompileInputs.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\Display - ptb\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\bin\Debug\WpfIconButtonControlLibrary.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\bin\Debug\WpfIconButtonControlLibrary.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary_MarkupCompile.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary_MarkupCompile.lref
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\Themes\Generic.baml
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.g.resources
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.Properties.Resources.resources
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csproj.GenerateResource.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csproj.CoreCompileInputs.cache
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.dll
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.pdb
+G:\bcnvision\Egaratelek\C00359-022-00\Default\BcnCalibrationCreator\WpfIconButtonControlLibrary\obj\Debug\WpfIconButtonControlLibrary.csprojAssemblyReference.cache

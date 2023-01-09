@@ -1,0 +1,2913 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>bcnvision.Data</name>
+    </assembly>
+    <members>
+        <member name="T:bcnvision.Data.BcnConfigFile">
+            <summary>
+            Clase que define un archivo de configuracion para la interface standard
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnConfigFile.xmlPath">
+            <summary>
+            Variable para almacenar la ruta del archivo de configuración para su posterior guardado
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnConfigFile.Configuration">
+            <summary>
+            Configuración de la aplicacion
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnConfigFile.LoadConfiguration(System.String)">
+            <summary>
+            Metodo para serializar csConfigFile con parametro de entrada
+            </summary>
+            <param name="XmlPath">Archivo xml</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnConfigFile.LoadConfiguration">
+            <summary>
+            Metodo para serializar csConfigFile con xml por defecto
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnConfigFile.SaveConfiguration">
+            <summary>
+            Metodo para sobreescribir el csConfigFile
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.Config">
+            <summary>
+            Clase que define la configuración de la aplicacion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.Config.AplicationSettings">
+            <summary>
+            Configuración general
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.Config.VisionSystems">
+            <summary>
+            Lista de sistemas de vision
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.AplicationSettings">
+            <summary>
+            Clase que define configuraciones generales de la aplicacion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ImageProcessingLibrary">
+             <summary>
+            Libreria de vision a utilizar, None, VisionPro, Matrox
+             </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ComunicationDevice">
+            <summary>
+            Dispositivo de comunicacion a utilizar, BcnTcpClient, BcnTcpServer, BcnUdp, BcnSiemensPLC, BcnAdvantechIO, BcnCifx, BcnCC24
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.TcpComsIP">
+            <summary>
+            IP para la comunicacion por tcp de coms es BcnTCPClient o BcnTCPServer. Por defecto es el localhost
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.TcpComsPort">
+            <summary>
+            Puerto de comunicacion TCP si el dispositivo de coms es BcnTCPClient o BcnTCPServer. Por defecto es el 7000
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.HeartBeatEnabled">
+            <summary>
+            Indica si se debe aplicar el HertBeat en el caso de tipo BcnTCPClient
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.RefreshScreenInterval">
+            <summary>
+            Tiempo de refresco de los displays del HMI en ms
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.FirstVisionSystemsPort">
+            <summary>
+            Primer puerto de comunicacion inter aplicaciones
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.UserLogOutms">
+            <summary>
+            Tiempo en el que se hara un user logout despues del login, si = 0 disable
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ShowMinimizeMaximizeCloseButtons">
+            <summary>
+            Indica si se utilizan los botones de maximizar, minimizar o cerrar o solo la cruz de cerrar
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.StartMinimized">
+            <summary>
+            Arranca la aplicacion minimizada si true y el ShowMinimizeMaximizeCloseButtons ==true
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.DisplayToShow">
+            <summary>
+            Indica en qué monitor se mostrará la aplicación
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.CloseOnlySuperUser">
+            <summary>
+            Si true solo puede cerrar la App un usuario con privelegios > monitor
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.NLogLevel">
+            <summary>
+            Nivel minimo a usar en Nlog -> Debug, Error, Info, Off, Warn, Trace, Fatal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.MaxNlogArchives">
+            <summary>
+            Numero maximo de Nlogs a guardar en el disco duro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.DoubleFormat">
+            <summary>
+            Indica como se representan los decimales en string, "0.00" por defecto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ProcessAfinityBcnvisionCore">
+            <summary>
+            Indica que procesadores utiliza el bcnvisionCore, negativo es auto. Escribir el valor binario en decimal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ProcessAfinityHmi">
+            <summary>
+            Indica que procesadores utiliza el hmi, negativo es auto. Escribir el valor binario en decimal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ProcessAfinityAdvancedScript">
+            <summary>
+            Indica que procesadores utiliza el hmi, negativo es auto. Escribir el valor binario en decimal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.NoHMIMode">
+            <summary>
+            Modo sin HMI
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.RefreshIntervalHmiMode">
+            <summary>
+            Si este parametro esta a true, el core solo envia valores de refresco al hmi cada vez que el RefreshScreenInterval se haya superado, 
+            esto implica que no se guardaran imagenes, ni datos en el csv, ni filmstrip ni refresco de pantalla para las imagenes descartadas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.ResultAnalysis">
+            <summary>
+            Indica si se va a utilizar la clase de resultado avanzado, o se evaluara cada visionsystem con resultado OK - NOK segun resultado del CogToolBlock
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.RecipeSettings">
+            <summary>
+            Configuraciones de la receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.BcnDeepLearningConfiguration">
+            <summary>
+            Configuracion de BcnDeepLearning
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.BcnDBConfiguration">
+            <summary>
+            Configuracion de la base de datos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AplicationSettings.BcnDataIntegrity">
+            <summary>
+            Configuracuón para el data integrity
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.VisionSystem">
+            <summary>
+            Clase que define un sistema de vision
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.VisionSystem.Name">
+            <summary>
+            Nombre por el que se conocera el sistema, debe ser el mismo que los vpps, xml, pars, etc...
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.VisionSystem.ProcessAfinity">
+            <summary>
+            Indica que procesadores utiliza el visionsystem, negativo es auto. Escribir el valor binario en decimal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.VisionSystem.AcquisitionDeviceConfig">
+            <summary>
+            Define la configuración de un sistema de vision
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.VisionSystem.DisplayConfig">
+            <summary>
+            Define la configuración del display de un sistema de vision
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.VisionSystem.OtherSettings">
+            <summary>
+            Define otras configuraciones del sistema de vision
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig">
+            <summary>
+            Clase que define la configuracion de un sistema de adquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.AcquisitionDevice">
+            <summary>
+            Indica que sistema se va a utilizar como adquisicion, opciones BcnBaslerCamera, BcnPhoxiApi, BcnOptoCamera, BcnCognexDs, BcnSvg, BcnInsight, BcnDataman
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.SerialNumber">
+            <summary>
+            Numero de serie
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.IP">
+            <summary>
+            IP
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.Port">
+            <summary>
+            Puerto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.User">
+            <summary>
+            User camara cognex
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.Password">
+            <summary>
+            Password cognex
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.ShowCustomView">
+            <summary>
+            Indica si se tiene que mostrar la vista personalizada
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.StitchingSensors">
+            <summary>
+            Indica el numero de sensores con los que hacer stitching
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.IncludePointCloud">
+            <summary>
+            Indica si se debe incluir la nube de puntos en el bcnImg
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.TriggerSignalFilter">
+            <summary>
+            Filtro para el trigger de las camaras Basler, si 0 no hay filtro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.TriggerDelayInsightFTP">
+            <summary>
+            Delay para el trigger de las camaras Insight EasyBuilder
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.MaxImageBufferSize">
+            <summary>
+            Indica el tamaño maximo de imagenes que se pueden acumular en la cola de proceso. Si la cola esta llena y llegan imagenes estas son descartadas. 
+            Esto permite controlar la Ram maxima de un vision system
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.ProcessAfinity">
+            <summary>
+            Indica que procesadores utiliza el AcquisitionDevice, negativo es auto. Escribir el valor binario en decimal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.SurfaceVisionImages">
+            <summary>
+            Indica cuantas imagenes vamos a capturar con el surface vision
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.CoakeConfiguration">
+            <summary>
+            Configuracion de Coake
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.AcquisitionDeviceConfig.MatroxConfiguration">
+            <summary>
+            Configuracion de Framegrabber Matrox
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.CoakeConfiguration">
+            <summary>
+            Clase que define la configuracion de un sistema de adquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.CoakeConfiguration.IP">
+            <summary>
+            IP para la comunicacion con trevista. Si esta en el mismo pc que la interface usar 127.0.0.1
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.CoakeConfiguration.ProcessAfinity">
+            <summary>
+            Indica que procesadores utiliza el visionsystem, negativo es auto. Escribir el valor binario en decimal
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.CoakeConfiguration.RecievePort">
+            <summary>
+            Puerto de recepcion UDP
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.CoakeConfiguration.SendPort">
+            <summary>
+            Puerto de envio UDP
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.MatroxConfiguration">
+            <summary>
+            Clase que define la configuracion de un sistema de adquisicion matrox
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.MatroxConfiguration.SystemName">
+            TODO Integrar Matrox
+            <summary>
+            Configuración System Name para Matrox M_SYSTEM_SOLIOS (defecto), M_SYSTEM_RADIENTCXP, M_SYSTEM_RADIENTEVCL
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.MatroxConfiguration.SystemNumber">
+            <summary>
+            Numero del Framegrabber para Matrox.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.MatroxConfiguration.DevNumber">
+            <summary>
+            Numero de puerto en el framegrabber para Matrox
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.MatroxConfiguration.GrabTimeoutInMsecs">
+            <summary>
+            Timeout en milisegundos, se considera 0 para anular el timeout. Los valores negativos no modificaran el parámetro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.MatroxConfiguration.ConcatenateImages">
+            <summary>
+            Numero de imagenes a concatenar.
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.DisplayConfig">
+            <summary>
+            Clase que define la configuración de un display
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.Row">
+            <summary>
+            Fila donde se colocara el display
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.Col">
+            <summary>
+            Columna donde se colocara el display
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.Height">
+            <summary>
+            Alto del display
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.Width">
+            <summary>
+            Ancho del display
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.CountersPosition">
+            <summary>
+            Posicion de los contadores de 1-3, fuera de este rango no hay contadores
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.UseGlobalCounters">
+            <summary>
+            Indica si queremos gestionar los contadores manualmente o automaticamente por foto y resultado
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.IsPictureBoxMode">
+            <summary>
+            Indica si el display es un control tipo PictureBox
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.DisplayConfig.Cog3DDisplay">
+            <summary>
+            Settings de la opcion de utilizar un Cog3DDisplay para imagenes de Cognex 3d CogRange16
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.Cog3DDisplay">
+            <summary>
+            Settings de la opcion de utilizar un Cog3DDisplay para imagenes de Cognex 3d CogRange16
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.Cog3DDisplay.EnableCog3DDisplay">
+            <summary>
+            Habilita un display 3D
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.Cog3DDisplay.IsLandscape">
+            <summary>
+            Indica si se encontrara a la izquierda o debajo del CogRecordsDisplay
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.Cog3DDisplay.SplitRangeAndGreyImage">
+            <summary>
+            Indica si el display 3D tiene la imagen de gris superpuesta
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.OtherSettings">
+            <summary>
+            Clase que define otras configuraciones de un sistema de vision
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.EnableThresholdsEvalutationAndView">
+            <summary>
+            Indica si se se va a utilizar la evaluacion con la clase Threshold. Se activa la vista en el CameraDetailView
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.EnableVisionProInputsView">
+            <summary>
+            Indica si se se va a utilizar la tabla que permite cargar parametros en visionPro desde la interface
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.EnableCalibrationView">
+            <summary>
+            Activa la vista detalla para poder ajustar la calibración del acquisition device
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.EnablePdfView">
+            <summary>
+            Activa la vista de pdf
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.HideThresholds">
+            <summary>
+            Indica si se han de ocultar los threshold en el ThresholdsEvalutation
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.FilmStripSize">
+            <summary>
+            Maximo numero de imagenes para guardar
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.FilmStripCondition">
+            <summary>
+            Indica que mostrar en la pelicula BOTH, OK, NOK
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.SaveImageSettings">
+            <summary>
+            Settings para el guardado de imagenes
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.nCogToolBlock">
+            <summary>
+            CogToolBlocks utilizados en el procesado, son la misma instancia, pero se pueden ejecutar en paralelo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.CreateLastRunRecord">
+            <summary>
+            Por defecto genera los graficos de VisionPro, false no crea graficos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.OtherSettings.MachineID">
+            <summary>
+            Para agrupar diferentes visionSystems en la misma gestion de BD.
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnConfigFile.OtherSettings.DisableVisionPro">
+            <summary>
+            Permite saltar el vision pro en el visionsystem
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.SaveImageSettings">
+            <summary>
+            Clase que define el guardado de imagenes
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.SaveImageSettings.MaxImagesToSave">
+            <summary>
+            Maximo numero de imagenes para guardar
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.SaveImageSettings.Condition">
+            <summary>
+            BOTH, OK, NOK, NONE
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.SaveImageSettings.SaveImagesInOkAndNokFolders">
+            <summary>
+            Indica si se guardan las imagenes en carpetas diferentes dependiendo si ok o no ok o en la misma
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.SaveImageSettings.ImageType">
+            <summary>
+            Indica el tipo. bcnImg, bmp, jpg, bmpGraph, asc
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.ResultAnalysis">
+            <summary>
+            Clase que definie los settings para la gestion avanazada de resultados
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.UsingBcnAdvancedResultAnalysis">
+            <summary>
+            Indica si se va a utilizar el script de Analisis de los resultados, 
+            donde el usuario puede programar la evaulacion de todos los resultados recibidos desde los visionSystems asi como la comunicacion con el ComDevice.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.DebugAdvancedScriptWithVisionProEditor">
+            <summary>
+            Si este parametro a true y UsingBcnAdvancedResultAnalysis a true, 
+            al abrir visionPro editor se abre el advanced script para poder debugarlo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.UsingBcnAdvancedResultAnalysisInInfo">
+            <summary>
+            Indica si debemos incrustar el formulario AdvancedResultAnalysis en el panel de Info.
+            En caso contrario se incrustara en el panel Principalsegun la configuracion de la estructura AdvancedDisplayConfig
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.UsingResultAnalysisView">
+            <summary>
+            Incustra la aplicacion core con la vista personalizada del AdvancedResult Analisis
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.UsingResultAnalysisThresholds">
+            <summary>
+            Activa la vista de los thresholds para el ResultsAnalysisScript 
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.UsingResultInfoView">
+            <summary>
+            Activa la vista de info
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.UsingCountersView">
+            <summary>
+            Activa los contadores totales
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.DisplayConfig">
+            <summary>
+            Define la configuración del display de un sistema de vision
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.ResultAnalysis.AdvancedDisplayConfig">
+            <summary>
+            Define la configuración del display especifico AdvancedDisplayConfig.
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.RecipeSettings">
+            <summary>
+            Clase que define configuraciones referentes a las recetas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.RememberLastRecipe">
+            <summary>
+            Indica si hay que recordar la ultima receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.LastLoadedRecipe">
+            <summary>
+            Ultima receta cargada
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.IsLoadRecipeHidden">
+            <summary>
+            Indica si ocultamos el menu de carga manual de referencias
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.IsOneByOneFolderMode">
+            <summary>
+            Este parametro indica si el modo de cargar recetas es vision system por visionsystem en lugar de por recetas. Necesitamos unan receta principal para la configuracion de
+            los dispositivos de adquisicion y en los programas cada visionsystem tendra una carpeta con los vpps
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.IsUniqueFolderMode">
+            <summary>
+            Este parametro indica si todos los programas se encuentran en la misma carpeta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.OneOfEachN">
+            <summary>
+            Para camaras en continuo, indica cuantas imagenes coger, una de cada N para hacer un arrancado lento
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.RecipeSettings.TotalToDiscard">
+            <summary>
+            Total de imagenes a descartar en el arranque lento en continuo
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration">
+            <summary>
+            Clase que define la configuracion de un sistema de adquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration.EnableDeepLearningServer">
+            <summary>
+            Indica cuando se va a utilizar el servidor de deep learning
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration.TcpServerPort">
+            <summary>
+            Puerto de comunicacion del servidor
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration.IsHidden">
+            <summary>
+            Indica si la aplicacion esta oculta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration.OptimizedGPUMemory">
+            <summary>
+            Tamaño de memoria asignada al inicio, si es superior a 0 se asginará sino cogera el valor que tenga por defecto el Vidi.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration.CleanRamdiskInterval">
+            <summary>
+            Intervalo con el que borrar archivos del ramdisk
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDeepLearningConfiguration.MaxFileTime">
+            <summary>
+            Tiempo maximo en que un archivo puede estar en el ram disk desde que se creo
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.BcnDBConfiguration">
+            <summary>
+            Clase que define la configuracion de la Base de Datos para estadísticas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDBConfiguration.EnableDB">
+            <summary>
+            Indica si se habilita la base de datos para estadísticas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDBConfiguration.LastVisionSystemIndex">
+            <summary>
+            Indica el ultimo visionSystem para indicar en que momento tenemos que cambiar de pieza.
+            En el caso de qué esté a -1, el cambio de pieza se hará cuando se reciba una imagen repetida
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDBConfiguration.UsingBcnAdvancedScript">
+            <summary>
+            Indica si se debe actualizar en el advancedSript o no.
+            En caso Verdadero se debe implementar.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDBConfiguration.Url">
+            <summary>
+            Indica la página inicial a buscar, si el gestor de la BBDD está en otro PC sustituir localhost por la IP correspondiente.
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnConfigFile.BcnDataIntegrity">
+            <summary>
+            Clase que define la configuración para el data Integrity
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.Enable">
+            <summary>
+            Indica si se habilita la dataIntegrity
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.UseDomainUsers">
+            <summary>
+            Indica si se tienen que usar los usuarios de Dominio
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.LDAPserver">
+            <summary>
+            Servidor LDAP
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.LDAPsearch">
+            <summary>
+            Carpeta de busqueda de Usuarios LDAP
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.usergroupAdmins">
+            <summary>
+            Grupo de Usuarios Administradores
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.usergroupOperators">
+            <summary>
+            Grupo de Usuarios Operadores
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.usergroupMonitors">
+            <summary>
+            Grupo de Usuarios Monitores
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.FileType">
+            <summary>
+            Tipo de fichero a guardar para el report, valores: CSV, PDF o BOTH
+            </summary>v
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.TextInitFile">
+            <summary>
+            Texto para indicar el inicio del fichero, si se deja vacío se realizará un report diario 
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.folderPath">
+            <summary>
+            Nombre entero de la carpeta donde se guardan los ficheros, si esta vacio no se guardaran nunca
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnConfigFile.BcnDataIntegrity.DaysExpirationLogs">
+            <summary>
+            Numero de dias para borrar los datos en los ficheros de logs
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnData">
+            <summary>
+            Clase que proporciona herramienta de almacenamineto de datos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnData.WriteCSVFile(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            Metodo para escribir datos en un csv, si el archivo no existe lo crea y genera la cabecera
+            </summary>
+            <param name="csvPath">Ruta y nombre del archivo</param>
+            <param name="Header">Cabecera. Si el archivo ya existe y la cabecera cambia se modificara</param>
+            <param name="Data">Datos ordenados coincidentes con el orden de la cabecera</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnData.SetDateString(System.DateTime)">
+            <summary>
+            Genera un string con la fecha en formato yyyyy_mm_dd_hh_mm_ss_mmm
+            </summary>
+            <param name="Date">Fecha</param>
+            <returns>Devuelve la fecha en el formato yyyyy_mm_dd_hh_mm_ss_mmm</returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnData.DirectoryCopy(System.String,System.String,System.Boolean)">
+            <summary>
+            Metodo que permite copiar un directorio
+            </summary>
+            <param name="sourceDirName">Directorio origen</param>
+            <param name="destDirName">Directorio destino</param>
+            <param name="copySubDirs">True si hay que copiar los subdirectorios</param>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLContainer">
+            <summary>
+            Clase serializable, Clase que define el contenedor de un bcnDL
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLContainer.BcnDLTool">
+            <summary>
+            Tipo de proyecto
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnDLTool.BcnDLClassify">
+            <summary>
+            Clasificacion
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnDLTool.BcnDLDetector">
+            <summary>
+            Location
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel">
+            <summary>
+            Indica la libreria de deep learning
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.squeezenet">
+            <summary>
+            PyTorch_squeezenet 
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.resnet18">
+            <summary>
+            PyTorch_resnet18 
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.resnet50">
+            <summary>
+            PyTorch_resnet18 
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.Alexnet">
+            <summary>
+            PyTorch_Alexnet
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.vgg">
+            <summary>
+            PyTorch_vgg 
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.densenet">
+            <summary>
+            PyTorch_densenet 
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnClassifyLibraryAndModel.inception">
+            <summary>
+            PyTorch_inception 
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLContainer.BcnLocateArchitecture">
+            <summary>
+            Indica la libreria de deep learning
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnDLContainer.BcnLocateArchitecture.MaskRCNN">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ProjectPath">
+            <summary>
+            Ruta del proyecto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ProjectName">
+            <summary>
+            Nombre del proyecto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.DataPath">
+            <summary>
+            Ruta de carpeta de los datos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ImagesTrainPath">
+            <summary>
+            Ruta de imagenes de entrenamiento
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ImagesValidationPath">
+            <summary>
+            Ruta de imagenes de validacion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ModelPath">
+            <summary>
+            Ruta del modelo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.Classes">
+            <summary>
+            Lista que define las classes
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.DLSettings">
+            <summary>
+            Settings para el deep learning
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.DLImages">
+            <summary>
+            Lista de imagenes en el database
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.DLGraphics">
+            <summary>
+            Objeto para almacenar los datos de los graficos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.DLTool">
+            <summary>
+            Herramienta definida
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ClassifyLibraryAndModel">
+            <summary>
+            Indica que 
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.LocateArchitecture">
+            <summary>
+            Arquitectura utilizada
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.ROI">
+            <summary>
+            ROI definida del proyecto (x0,y0,x1,y1)
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.RoiEnable">
+            <summary>
+            Indica si la roi esta habilitada
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.IsModelAvailable">
+            <summary>
+            Indica si el modelo existe y se puede entrenar
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.CNNInputSize">
+            <summary>
+            Indica a que tamaño hay que reescalar la imagen segun el tipo de CNN
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLContainer.IdFormat">
+            <summary>
+            Numero de posiciones numericas para el id de las classes
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLContainer.#ctor(System.String,System.String,bcnvision.Data.BcnDLContainer.BcnDLTool)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="ProjectPath">Ruta del proyecto</param>
+            <param name="ProjectName">Nombre del proyecto</param>
+            <param name="DLTool">Tipo de herramienta</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLContainer.Serialize(System.String,bcnvision.Data.BcnDLContainer)">
+            <summary>
+            Metodo para serializar desde disco un objeto tipo BcnVisionProImageItem. Añade la extension "bcnimg" a la ruta
+            </summary>
+            <param name="FilePath">Ruta sin extension, la añade automaticamente</param>
+            <param name="DLContainer">Objeto BcnDLContainter</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLContainer.Deserialize(System.String,System.String)">
+            <summary>
+            Metodo para deserializar un objeto tipo BcnVisionProImageItem
+            </summary>
+            <param name="FilePath">Ruta sin la extension, se añade automaticamente</param>
+             <param name="ProjectName">Nombre del proyecto</param>
+            <returns>Devulve un objeto DLContainer</returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLContainer.GetEnableClasses">
+            <summary>
+            Devuelve el numero de clases habilitadas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLContainer.GetTrainedClasses">
+            <summary>
+            Devuelve el numero de clases entrenadas
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLClass">
+            <summary>
+            Clase serializable,que define classes de deep learning
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLClass.ID">
+            <summary>
+            ID de la clase, permite asociar un valor numerico ademas del nombre que luego puede ser utilizado como salida hacia un automata por ejemplo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLClass.Name">
+            <summary>
+            Nombre de la clase
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLClass.IsEnable">
+            <summary>
+            Indica si la clase esta habilitada
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLClass.IsTrained">
+            <summary>
+            Indica si la clase esta entrenada
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLClass.#ctor">
+            <summary>
+            Construcotr
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLImage">
+            <summary>
+            Clase serializable,Clase que define las settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLImage.Name">
+            <summary>
+            Nombre de la imagen
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLImage.ClassName">
+            <summary>
+            Clase catalogda
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLImage.ParentFolder">
+            <summary>
+            Indico si pertenece a Raw,Train o Validation
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLImage.Predicted">
+            <summary>
+            Lista de classes y predicciones
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLImage.Polygons">
+            <summary>
+            Poligonos asociados a la imagen
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLImage.#ctor(System.String,System.String)">
+            <summary>
+            Construcotr
+            </summary>
+            <param name="Name"></param>
+            <param name="ClassName"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLSettings">
+            <summary>
+            Clase serializable, Clase que define las settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.Epochs">
+            <summary>
+            Nombre de la clase
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.BatchSize">
+            <summary>
+            Nombre de la clase
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.Threshold">
+            <summary>
+            % minimo de similitud
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.Pretrained">
+            <summary>
+            Indica si se parte del modelo preentrenado
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.ResetModel">
+            <summary>
+            Indica si se resetea el modelo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.FeatureExtract">
+            <summary>
+            Indica si se hace un tunning entero o solo de las ultimas capas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.EnableDataAugmentation">
+            <summary>
+            Indica si se hace un tunning entero o solo de las ultimas capas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLSettings.LearningRate">
+            <summary>
+            Learning rate
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnDLSettings.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnDLGraphics">
+            <summary>
+            Clase serializable,que define las settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLGraphics.TrainLossFunction">
+            <summary>
+            Datos del TrainLossFunction
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLGraphics.ValidationLossFunction">
+            <summary>
+            ValidationLossFunction
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLGraphics.TrainAccFunction">
+            <summary>
+            TrainAccFunction
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDLGraphics.ValidationAccFunction">
+            <summary>
+            ValidationAccFunction
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnPolygon">
+            <summary>
+            Clase serializable,Clase que define las settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPolygon.Tag">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPolygon.BoundingBox">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPolygon.Polygon">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnPolygon.#ctor(System.Int32,System.String,bcnvision.Data.BcnRectangle,System.Double[0:,0:])">
+            <summary>
+            
+            </summary>
+            <param name="Tag"></param>
+            <param name="BoundingBox"></param>
+            <param name="Polygon"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnRectangle">
+            <summary>
+            Clase serializable,Clase que define las settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRectangle.X">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRectangle.Y">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRectangle.Width">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRectangle.Height">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRectangle.#ctor(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Width"></param>
+            <param name="Height"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnRawImage">
+            <summary>
+            Clase serializable
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRawImage.BcnRawImageFormat">
+            <summary>
+            Fomratos de imagen
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.Gray">
+            <summary>
+            8bits
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.Gray16">
+            <summary>
+            16bits
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.BayerRg8">
+            <summary>
+            Bayer rg8
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.BayerBg8">
+            <summary>
+            Bayer bg 8
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.BayerGr8">
+            <summary>
+            Bayer gr 8
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.Rgb24">
+            <summary>
+            Rgb24
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnRawImage.BcnRawImageFormat.Bgr">
+            <summary>
+            Bgr
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRawImage.Data">
+            <summary>
+            Array de datos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRawImage.Height">
+            <summary>
+            Alto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRawImage.Width">
+            <summary>
+            Ancho
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRawImage.Format">
+            <summary>
+            Formato de la imagen
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.#ctor(System.Int32,System.Int32,bcnvision.Data.BcnRawImage.BcnRawImageFormat)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Height"></param>
+            <param name="Width"></param>
+            <param name="Format"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.#ctor(System.Byte[],System.Int32,System.Int32,bcnvision.Data.BcnRawImage.BcnRawImageFormat)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Data"></param>
+            <param name="Height"></param>
+            <param name="Width"></param>
+            <param name="Format"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.#ctor(System.Drawing.Bitmap,bcnvision.Data.BcnRawImage.BcnRawImageFormat)">
+            <summary>
+            
+            </summary>
+            <param name="bmp"></param>
+            <param name="Format"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.#ctor(System.Int32,bcnvision.Data.BcnRawImage.BcnRawImageFormat)">
+            <summary>
+            
+            </summary>
+            <param name="Length"></param>
+            <param name="Format"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.#ctor(bcnvision.Data.BcnRawImage)">
+            <summary>
+            Constructor de copia
+            </summary>
+            <param name="rawImage"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.ToBitmap">
+            <summary>
+            Convierte los datos a bmp
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.ToRgb24">
+            <summary>
+            Metodo para cambiar el formato a Rgb24
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.ToBGR">
+            <summary>
+            Metodo para cambiar el formato a Rgb24
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.DrawText(bcnvision.Data.BcnRawImage,System.String,bcnvision.Data.BcnGraphicSettings)">
+            <summary>
+            Metodo para pintar un texto en la imagen
+            </summary>
+            <param name="InputImage"></param>
+            <param name="Text"></param>
+            <param name="Settings"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.Crop(System.Int32[])">
+            <summary>
+            Recorte de la imagen
+            </summary>
+            <param name="Roi"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnRawImage.Resize(System.Int32,System.Int32)">
+            <summary>
+            Resize de una imagen
+            </summary>
+            <param name="Width"></param>
+            <param name="Height"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnGraphicSettings">
+            <summary>
+            Clase serializable, para configurar los graficos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGraphicSettings.Color">
+            <summary>
+            Color del grafico
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGraphicSettings.Thickness">
+            <summary>
+            Tamaño del grafico
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGraphicSettings.OffsetX">
+            <summary>
+            Offset x
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGraphicSettings.OffsetY">
+            <summary>
+            Offset y
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGraphicSettings.FontSize">
+            <summary>
+            Tamaño de la fuente
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGraphicSettings.DrawChar">
+            <summary>
+            Indica siqueremos pintar el texto encima de las regiones
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnGraphicSettings.#ctor(System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Color"></param>
+            <param name="Thickness"></param>
+            <param name="OffsetX"></param>
+            <param name="OffsetY"></param>
+            <param name="FontSize"></param>
+            /// <param name="DrawChar"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnKapture">
+            <summary>
+            Clase que define el objeto para crear archivos para kapture
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.FolderPath">
+            <summary>
+            Directorio para guardar las imagenes
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnKapture.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="FolderPath">Carpeta donde guardar los archivos generados para kapture</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnKapture.writeKaptureFile(System.Collections.Generic.List{bcnvision.Data.BcnKapture.Data},System.String)">
+            <summary>
+            Metodo para escribir el archivo
+            </summary>
+            <param name="Data"></param>
+            <param name="FileName"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnKapture.SetDateString(System.DateTime)">
+            <summary>
+            Metodo para generar un string partiendo de una fecha
+            </summary>
+            <param name="Date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnKapture.WriteKaptureFile(System.Collections.Generic.List{bcnvision.Data.BcnKapture.Data})">
+            <summary>
+            Metodo que escribe los datos para kapture en un fichero osf
+            </summary>
+            <param name="Data">Datos a guardar</param>
+            <returns>Nombre del archivo</returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnKapture.WriteKaptureFile(System.Collections.Generic.List{bcnvision.Data.BcnKapture.Data},System.Drawing.Bitmap)">
+            <summary>
+            Metodo que escribe los datos para kapture en un fichero osf
+            </summary>
+            <param name="Data">Datos a guardar</param>
+            <param name="Image">Imagen a guardar</param>
+            <returns>Nombre del archivo</returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnKapture.Data">
+            <summary>
+            Clase que define los datos de capture
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.Data.Key">
+            <summary>
+            Clave
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.Data.Value">
+            <summary>
+            Valor
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.Data.IdItem">
+            <summary>
+            Identificador del elemento
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.Data.IdReference">
+            <summary>
+            Identificador de la referencia
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.Data.IdMachine">
+            <summary>
+            Identificador de la Maquina
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnKapture.Data.Obs">
+            <summary>
+            Observaciones
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnKapture.Data.#ctor(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor de la clase Data
+            </summary>
+            <param name="Key"></param>
+            <param name="Value"></param>
+            <param name="IdItem"></param>
+            <param name="IdReference"></param>
+            <param name="IdMachine"></param>
+            <param name="Obs"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnPointCloud">
+            <summary>
+            Clase serializable, que define un point cloud
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnPointCloud.BcnPointCloudEnum">
+            <summary>
+            Define los tipos de resultados para la herramienta 
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnPointCloud.BcnPointCloudEnum.NoPoint">
+            <summary>
+            Punto no valido
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.PointCloud">
+            <summary>
+            Array de float que contiene la nube de puntos en formato x, y, z
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.Width">
+            <summary>
+            Ancho del Depth map
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.Height">
+            <summary>
+            Alto del Depth map
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.MatrixList">
+            <summary>
+            Lista de  rotaciones y translaciones de Euler
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.MatrixStaticList">
+            <summary>
+            Lista de  rotaciones y translaciones de Euler staticas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.CogImageMapIndexData">
+            <summary>
+            Mapa de indices que relacionan un pixel en el Zmpa con los datos de la nube de puntos, de esta forma es facil y rapido buscar correspondecias entre pixel y nube de puntos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.ZmapResolution">
+            <summary>
+            Resoluciones del zmap asociado
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPointCloud.AdditionalImages">
+            <summary>
+            imagenes adicionales al 3D
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.#ctor(System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Lenght"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="Width"></param>
+            <param name="Height"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.#ctor(System.String)">
+            <summary>
+            Constructor que carga un poincloid desde un fichero ASCII
+            </summary>
+            <param name="path">Ruta</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.#ctor(System.Single[])">
+            <summary>
+            Constructor que recibe data en formato x,y,z como array de floats
+            </summary>
+            <param name="Data">Datos en formato x,y,z</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.SaveToAscii(System.String)">
+            <summary>
+            Metodo para exportar el point cloud a formato ASCII
+            </summary>
+            <param name="PoincloudPath">Ruta de guardado</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.LoadFromAscii(System.String)">
+            <summary>
+            Metodo que carga un pointcloud desde un fichero ASCII
+            </summary>
+            <param name="Path"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.SaveToPly(System.String)">
+            <summary>
+            Metodo para guardar la nube de puntos como ply
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.LoadFromPLY(System.String)">
+            <summary>
+            Metodo que carga un pointcloud desde un fichero ASCII
+            </summary>
+            <param name="Path"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.SavePoinCloudAndManageFolder(System.String,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            Metodo para guardar una nube de puntos en la carpeta de imagenes, gestionando el tamanño maximo de la carpeta
+            </summary>
+            <param name="Path"></param>
+            <param name="SeparateImagesInOkAndNokFolders"></param>
+            <param name="Result"></param>
+            <param name="MaxPoincloudsInTheFolder"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.RotateAndTranslatePointCloudMatrix(System.Int32,System.Boolean)">
+            <summary>
+            Metodo para rotar y trasladar la nube de puntos con una de las matrices dadas
+            </summary>
+            <param name="index">Indice de la lista de EulerRotationAngle</param>
+            <param name="IsUnitInMeters">Si true indica que esta en m</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.RotateAndTranslateSinglePoint(System.Int32,System.Single@,System.Single@,System.Single@)">
+            <summary>
+            Metodo para rotar y trasladar un punto multiplicandolo por una matriz de rotacion y traslacion
+            </summary>
+            <param name="index">Indice de la lista de matrices de rotacion y traslacion</param>
+            <param name="X">Coordenada X</param>
+            <param name="Y">Coordenada Y</param>
+            <param name="Z">Coordenada Z</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.MirrorPlaneZX">
+            <summary>
+            Hace un efecto de espejo en los valores de Y
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.MirrorPlaneZY">
+            <summary>
+            Hace un efecto de espejo en los valores de X
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.MirrorPlaneXY">
+            <summary>
+            Hace un efecto de espejo en los valores de Z
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.ConcatenatePointClouds(bcnvision.Data.BcnPointCloud)">
+            <summary>
+            Metodo para concatenar un poincloud con otro
+            </summary>
+            <param name="PointCloud">Poincloud concatenado</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.ConcatenatePointCloudArray(bcnvision.Data.BcnPointCloud[])">
+            <summary>
+            Metodo para concatenar un poincloud con otro
+            </summary>
+            <param name="PointClouds">Array de pointclouds</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.DeleteInvalidZ(System.Single)">
+            <summary>
+            Metodo para limpiar puntos no validos del PointCloud
+            </summary>
+            <param name="ZValue">Valor de Z que hay que borrar</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.GetRange(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Metodo que dado un cubo 3d devuelve un poincloud con los puntos del pointcloud contenidos en el cubo. Es una roi 3d
+            </summary>
+            <param name="StartX"></param>
+            <param name="StartY"></param>
+            /// <param name="StartZ"></param>
+            <param name="Widht">Ancho en X del cubo</param>
+            <param name="Height">Alto del cubo en Y</param>
+            <param name="Lenght">Largo en Z del cubo</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.GetCoordinatesFromImage2D(System.Int32,System.Int32)">
+            <summary>
+            Obtenemos una corrdenada 3D
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnPointCloud.TcpToBase(System.Numerics.Vector3,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Metodo para transformar un punto de tcp a base
+            </summary>
+            <param name="objectTcp"></param>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="z"></param>
+            <param name="rx"></param>
+            <param name="ry"></param>
+            <param name="rz"></param>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnZmapResolution">
+            <summary>
+            Clase serializable, Define las Resoluciones del ZmapAsociado en la tabla de indices
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.XResolution">
+            <summary>
+            Resolucion en X
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.YResolution">
+            <summary>
+            Resolucino en Y
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.ZResolution">
+            <summary>
+            Resolucion en Z
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.TranslationX">
+            <summary>
+            Translacion Aplicada en X
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.TranslationY">
+            <summary>
+            Translacion aplicada en Y
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.NearFOV">
+            <summary>
+            Campo cercano
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnZmapResolution.FarFOV">
+            <summary>
+            Campo lejano
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnZmapResolution.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="XResolution"></param>
+            <param name="YResolution"></param>
+            <param name="ZResolution"></param>
+            <param name="TranslationX"></param>
+            <param name="TranslationY"></param>
+            <param name="FarFOV"></param>
+            <param name="NearFOV"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnResultConstants">
+            <summary>
+            Clase serializable
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnResultConstants.Accept">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnResultConstants.Warning">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnResultConstants.Reject">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnResultConstants.Error">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnResultItem">
+            <summary>
+            Clase serializable, que define un contenedor de resultados y imagenes
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnResultItem.ResultContainer">
+            <summary>
+            Define un contenedor de resultados
+            </summary>
+        </member>
+        <member name="F:bcnvision.Data.BcnResultItem.VisionProImageContainer">
+            <summary>
+            Define un contendedor de imagenes y graficos
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnResultItem.#ctor(bcnvision.Data.BcnResultContainer,bcnvision.Data.BcnImageContainer)">
+            <summary>
+            Constructor de la clase
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnResultContainer">
+            <summary>
+            Clase que define un contenedor de resultados
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.ID">
+            <summary>
+            Identificador
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.AcquisitionTime">
+            <summary>
+            Momento de la adquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.StartProcess">
+            <summary>
+            Momento inicio proceso
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.EndProcess">
+            <summary>
+            Momento fin proceso
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.ToolResultConstant">
+            <summary>
+            Resultado visionPro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.ToolBlockOutputs">
+            <summary>
+            Salidas de un CogToolBlock
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.VisionProInputs">
+            <summary>
+            Lista con los valores de entradas definidos por receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.Thresholds">
+            <summary>
+            Lista de tresholds
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.GlobalResult">
+            <summary>
+            Variable para resultados globales en lugar de foto a foto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.AcquisitionDeviceSettings">
+            <summary>
+            Valores de calibracion en la receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.BcnClassifyResults">
+            <summary>
+            Lista para almacenar los resultados de BcnClassify
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnResultContainer.BcnDetectorResults">
+            <summary>
+            Lista para almacenar los resultados de BcnLocate
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnResultContainer.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnResultContainer.#ctor(System.Int32,System.Int64,System.Int64,System.Int64,bcnvision.Data.BcnResultConstants,System.Collections.Generic.List{bcnvision.Data.BcnVisionDictionary},System.Collections.Generic.List{bcnvision.Data.BcnToolOutput},System.Collections.Generic.List{bcnvision.Data.BcnThreshold},bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings,System.Collections.Generic.List{bcnvision.Data.BcnPrediction},System.Collections.Generic.List{bcnvision.Data.BcnDetectorResult})">
+            <summary>
+            Construcor de la clase
+            </summary>
+            <param name="ID">Identificador</param>
+            /// <param name="AcquisitionTime">Tiempo de adquisicion</param>
+            <param name="StartProcess">Start Tiempo de proceso</param>
+            <param name="EndProcess">End Tiempo de proceso</param>
+            <param name="ToolResultConstant">Resultado del CogToolBlock</param>
+            <param name="VisionProInputs">Definicion de parametros de entrada ToolBlock</param>
+            <param name="ToolBlockOutputs">Salidas del ToolBlock</param>
+            <param name="Thresholds">Lista de tresholds</param>
+            <param name="AcquisitionDeviceSettings"></param>
+            <param name="BcnClassifyResults">Resultados de BcnClassify</param>
+            <param name="BcnLocatorResults">BcnLocatorResults</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnResultContainer.Serialize(System.String,bcnvision.Data.BcnResultContainer)">
+            <summary>
+            Metodo para serializar desde disco un objeto tipo BcnResultItem
+            </summary>
+            <param name="FilePath">Ruta sin la extension, se añade automaticamente</param>
+            <param name="ResultItem">Objeto BcnResultItem</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnResultContainer.Deserialize(System.String)">
+            <summary>
+            Metodo para deserializar un objeto tipo BcnResultItem
+            </summary>
+            <param name="FilePath">Ruta</param>
+            <returns>Devulve un objeto BcnResultItem</returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnGlobalResult">
+            <summary>
+            Clase serializable
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGlobalResult.Ok">
+            <summary>
+            Contador buenas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGlobalResult.Nok">
+            <summary>
+            Contador malas
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnGlobalResult.ResultColorBorder">
+            <summary>
+            Color resultado borde
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnGlobalResult.BcnResultColorBorder">
+            <summary>
+            Posibles colores del borde del resultado
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnGlobalResult.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnGlobalResult.#ctor(System.Int32,System.Int32,bcnvision.Data.BcnGlobalResult.BcnResultColorBorder)">
+            <summary>
+            Constructor de copia
+            </summary>
+            <param name="Ok"></param>
+            <param name="Nok"></param>
+            <param name="ResultColorBorder"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnGlobalResult.#ctor(bcnvision.Data.BcnGlobalResult)">
+            <summary>
+            Constructor copia objecto
+            </summary>
+            <param name="GlobalResult"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnPrediction">
+            <summary>
+            Clase serializable, Guarda el valor de una prediccion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPrediction.ID">
+            <summary>
+            Identificador de la clase, se puede utilizar para dar las salidas a un automata
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPrediction.Label">
+            <summary>
+            Etiqueta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnPrediction.Confidence">
+            <summary>
+            Score
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnDetectorResult">
+            <summary>
+            Clase serializable, Guarda el valor de una prediccion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDetectorResult.box">
+            <summary>
+            Roi
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDetectorResult.label">
+            <summary>
+            Label
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDetectorResult.score">
+            <summary>
+            Score
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDetectorResult.Area">
+            <summary>
+            Area
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDetectorResult.CenterOfMass">
+            <summary>
+            Center of Mass
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnDetectorResult.Angle">
+            <summary>
+            Get
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetCenterOfMass">
+            <summary>
+            Return center of mass
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetArea">
+            <summary>
+            Return area
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetAngle">
+            <summary>
+            Calculamos el angulo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetWidhtAngle">
+            <summary>
+            Devuelve el angulo del lado ancho
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetHeightAngle">
+            <summary>
+            Devuelve el angulo del lado estrecho
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetWidht">
+            <summary>
+            Devuelve el ancho de al region
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnDetectorResult.GetHeight">
+            <summary>
+            Devuelve el ancho de al region
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnThreshold">
+            <summary>
+            Classe que define valores de tolerancia
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Name">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Value">
+            <summary>
+            Valor
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Min">
+            <summary>
+            Valor minimo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Max">
+            <summary>
+            Valor maximo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Result">
+            <summary>
+            Resultado
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Comment">
+            <summary>
+            Comentario
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Disable">
+            <summary>
+            Deshabilitar
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Offset">
+            <summary>
+            Offset
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Minimum">
+            <summary>
+            Minimo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Maximum">
+            <summary>
+            Maximo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Average">
+            <summary>
+            Median
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.Range">
+            <summary>
+            Rango
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.TotalCounter">
+            <summary>
+            Contador Total
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.OkCounter">
+            <summary>
+            Contador ok
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.NokCounter">
+            <summary>
+            Contador nok
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnThreshold.ErrCounter">
+            <summary>
+            Contador error
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.#ctor">
+            <summary>
+            Constutor
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.#ctor(bcnvision.Data.BcnThreshold)">
+            <summary>
+            Copia los elementos
+            </summary>
+            <param name="Threshold"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.#ctor(System.String,System.String,System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Constructor con parametros
+            </summary>
+            <param name="Name"></param>
+            <param name="Min"></param>
+            <param name="Max"></param>
+            <param name="Comment"></param>
+            <param name="Disable"></param>
+            <param name="Offset"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.CalculateStatistics">
+            <summary>
+            Calculo estadistico al agregar valor
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.ResetCounts">
+            <summary>
+            Metodo Reset de los contadores
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.ResetStatistics">
+            <summary>
+            Metodo para resetear las estadisticas
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.Evaluate">
+            <summary>
+            Evalua el threshold
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnThreshold.UpdateCounters(System.Boolean)">
+            <summary>
+            Metodo para actualizar contadores
+            </summary>
+            <param name="noProcessError">Si false, cuenta un error</param>
+        </member>
+        <member name="E:bcnvision.Data.BcnThreshold.PropertyChanged">
+            <summary>
+            PropertyChanged
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnToolOutput">
+            <summary>
+            Clase serializable, Valores de salida de una herramienta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnToolOutput.Name">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnToolOutput.Value">
+            <summary>
+            Valor
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnToolOutput.#ctor(System.String,System.Object)">
+            <summary>
+            Cosntructor
+            </summary>
+            <param name="Name"></param>
+            <param name="Value"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnVisionDictionary">
+            <summary>
+            Classe que define valores de entradas para vision pro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnVisionDictionary.Tag">
+            <summary>
+            Nombre de la variable
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnVisionDictionary.Value">
+            <summary>
+            Valor de la variable
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnVisionDictionary.Comment">
+            <summary>
+            Comentario
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnVisionDictionary.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnVisionDictionary.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Cosntructor de la clase con parametros
+            </summary>
+            <param name="Tag"></param>
+            <param name="Value"></param>
+            <param name="Comment"></param>
+        </member>
+        <member name="E:bcnvision.Data.BcnVisionDictionary.PropertyChanged">
+            <summary>
+             Declare the PropertyChanged event
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnLockBitmap">
+            <summary>
+            Clase para bloquear un Bitmap
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnLockBitmap.Pixels">
+            <summary>
+            Pixels
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnLockBitmap.Depth">
+            <summary>
+            Depth
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnLockBitmap.Width">
+            <summary>
+            Ancho
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnLockBitmap.Height">
+            <summary>
+            Alto
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnLockBitmap.#ctor(System.Drawing.Bitmap)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnLockBitmap.LockBits">
+            <summary>
+            Lock bitmap data
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnLockBitmap.UnlockBits">
+            <summary>
+            Unlock bitmap data
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnLockBitmap.GetPixel(System.Int32,System.Int32)">
+            <summary>
+            Get the color of the specified pixel
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnLockBitmap.SetPixel(System.Int32,System.Int32,System.Drawing.Color)">
+            <summary>
+            Set the color of the specified pixel
+            </summary>
+            <param name="x"></param>
+            <param name="y"></param>
+            <param name="color"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnImageContainer">
+            <summary>
+            Clase serializable que define un contendedor de imagenes y graficos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.ID">
+            <summary>
+            Identificador
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.AcquisitionTime">
+            <summary>
+            Momento de la adquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.Info">
+            <summary>
+            Variable para añadir algun comentario
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.Images">
+            <summary>
+            Lista de imagenes de visionPro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.PointCloud">
+            <summary>
+            Nube de puntos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.Record">
+            <summary>
+            Graficos de visionPro
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.ImageWithGraphics">
+            <summary>
+            Imagen con graficos de vidi
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnImageContainer.Image16Range">
+            <summary>
+            Imagen 16 bits de cognex
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnImageContainer.#ctor(System.Int32,System.Int64,System.String,System.Collections.Generic.List{bcnvision.Data.BcnRawImage})">
+            <summary>
+            Constuctor
+            </summary>
+            <param name="ID">ID</param>
+            <param name="AcquisitionTime">Tiempo de adquisicion</param>
+            <param name="Info"></param>
+            <param name="Images">Lista de imagenes</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnImageContainer.#ctor(System.Int32,System.Int64,System.String,System.Collections.Generic.List{bcnvision.Data.BcnRawImage},System.Object)">
+            <summary>
+            Constuctor
+            </summary>
+            <param name="ID">ID</param>
+            <param name="AcquisitionTime">Tiempo de adquisicion</param>
+            <param name="Info"></param>
+            <param name="Images">Lista de imagenes</param>
+            <param name="Record">Graficos</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnImageContainer.#ctor(System.Int32,System.Int64,System.String,System.Object,System.Object)">
+            <summary>
+            Constuctor
+            </summary>
+            <param name="ID">ID</param>
+            <param name="AcquisitionTime">Tiempo de adquisicion</param>
+            <param name="Info"></param>
+            <param name="Image16Range">Lista de imagenes 16 bits</param>
+            <param name="Record">Graficos</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnImageContainer.#ctor(System.Int32,System.Int64,System.String,bcnvision.Data.BcnPointCloud)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="ID"></param>
+            <param name="AcquisitionTime"></param>
+            <param name="Info"></param>
+            <param name="PointCloud"></param>
+        </member>
+        <member name="M:bcnvision.Data.BcnImageContainer.Serialize(System.String,bcnvision.Data.BcnImageContainer)">
+            <summary>
+            Metodo para serializar desde disco un objeto tipo BcnVisionProImageItem. Añade la extension "bcnimg" a la ruta
+            </summary>
+            <param name="FilePath">Ruta sin extension, la añade automaticamente</param>
+            <param name="ResultItem">Objeto BcnResultItem</param>
+        </member>
+        <member name="M:bcnvision.Data.BcnImageContainer.Deserialize(System.String)">
+            <summary>
+            Metodo para deserializar un objeto tipo BcnVisionProImageItem
+            </summary>
+            <param name="FilePath">Ruta sin la extension, se añade automaticamente</param>
+            <returns>Devulve un objeto BcnVisionProImageItem</returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe">
+            <summary>
+            Clase para la gestion de la receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RecipeName">
+            <summary>
+            Nombre de la receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Content">
+            <summary>
+            Contenido de la receta
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.LoadedRecipeEvent">
+            <summary>
+            Evento que notifica cuando se ha recargado una receta
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="E:bcnvision.Data.BcnRecipe.LoadedRecipe">
+            <summary>
+            Evento receta cargada
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.LoadRecipe(System.String)">
+            <summary>
+            Metodo para serializar csConfigFile con parametro de entrada
+            </summary>
+            <param name="XmlPath">Archivo xml</param>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.SaveRecipe">
+            <summary>
+            Metodo para guardar la receta
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.Recipe">
+            <summary>
+            Clase que define los valores de una receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Recipe.AcquisitionDeviceSettings">
+            <summary>
+            Clase que define los valores del dispositivo de acquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Recipe.VisionProInputs">
+            <summary>
+            Los visionPro Inputs
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Recipe.Thresholds">
+            <summary>
+            VisionPro Outputs
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Recipe.iBlueDriveSettings">
+            <summary>
+            Settings para modulo ibluedrive
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.Recipe.Evaluate(System.Collections.Generic.List{bcnvision.Data.BcnToolOutput},System.Boolean,System.String)">
+            <summary>
+            Metodo para evaluar los resultados segun tolerancias
+            </summary>
+            <param name="OutputValues">Diccionario con nombre y salidas a analizar</param>
+            <param name="noProcessError">Indica que no ha habido un error en el procesado</param>
+            <param name="DecimalFormat">Indica las posiciones decimales en tipo "0.00"</param>
+            <returns>Resultado</returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.Recipe.EvaluateThresholds">
+            <summary>
+            Metodo que evalua que todos los resultados de los thresholds esten entre su minimo y maximo
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.Recipe.ClearResults">
+            <summary>
+            Borra todos los resultados y estadisticas
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings">
+            <summary>
+            Clase que define los setttings de un sistema de adquisicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.Exposure">
+            <summary>
+            Tiempo de exposicion del dispositivo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.Focus">
+            <summary>
+            Enfoque
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.TriggerDelay">
+            <summary>
+            Delay en el trigger
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.TriggerMode">
+            <summary>
+            Selecciona el tipo de trigger. Software, Line, Continuous, MultiSoftwareTrigger, MultiLineTrigger, TriggerRegion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.TimeOut">
+            <summary>
+            Tiempo maximo en la adquisicion, 0 no hay timeout
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.IsDisable">
+            <summary>
+            Indica si el sistema esta deshabilitado en la receta
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.NImages">
+            <summary>
+            Nº de imagenes en el modo trigger multi, multitrigger y HDR
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.AcquisitionFrameRate">
+            <summary>
+            Frecuencia de adquisicion en hz.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.ApplyFirstRotationAndTranslationMatrix">
+            <summary>
+            Indica si queremos aplicar la primera matriz de rotacion y translacion a la nube de puntos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.IsPointCloudUnitInMeters">
+            <summary>
+            Indica si los valores de la nube de puntos estan en metros  
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.RotationAndTranslation">
+            <summary>
+            Rotation de la nube de puntos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.SmartRaySettings">
+            <summary>
+            Parametros extras para sensor SmartRay
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.PhotoneoSettings">
+            <summary>
+            Parametros extras para sensor Photoneo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.RealSenseSettings">
+            <summary>
+            Parametros extras para sensor Realsense
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.ZividSettings">
+            <summary>
+            Parametros extras para sensor Zivid
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.TriggerRegion">
+            <summary>
+            Region para la realizacion de un auto trigger
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.AcquisitionDeviceSettings.BcnAcqDeviceSimSettings">
+            <summary>
+            Settings para el simulador de un visionsystem
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation">
+            <summary>
+            Clase que define la matriz de rotacion y translacion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M11">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M12">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M13">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M14">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M21">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M22">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M23">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M24">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M31">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M32">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M33">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M34">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M41">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M42">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M43">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.M44">
+            <summary>
+            posicion de la matriz de 4x4
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.BcnRotationAndTranslation.#ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            Constructor copia
+            </summary>
+            <param name="M11"></param>
+            <param name="M12"></param>
+            <param name="M13"></param>
+            <param name="M14"></param>
+            <param name="M21"></param>
+            <param name="M22"></param>
+            <param name="M23"></param>
+            <param name="M24"></param>
+            <param name="M31"></param>
+            <param name="M32"></param>
+            <param name="M33"></param>
+            <param name="M34"></param>
+            <param name="M41"></param>
+            <param name="M42"></param>
+            <param name="M43"></param>
+            <param name="M44"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.SmartRaySettings">
+            <summary>
+            Clase que define los setttings del smartRay
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.LaserLineThreshold">
+            <summary>
+            Threshold para la deteccion del grosor de la linea, no se guarda en el pars file
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.DisplascementResolution">
+            <summary>
+            Resolucion en el sentido de desplazamiento
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.IsProfileIntensityLaserLineThickness">
+            <summary>
+            Indica si el smartray trabajara en modo ProfileIntensityLaserLineThickness o solo Profile.
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.AddZmap">
+            <summary>
+            Indica si queremos que el smartray guarde un bmp con el zmap
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.LaserPulsedMode">
+            <summary>
+            Si true el laser esta en pulsed, sino estara en continuous
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.IsPacketbyPacketMode">
+            <summary>
+            Si false devuelve la imagen completa, si true el smartray devuelve la imagen por paquetes
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.WidthSubsampling">
+            <summary>
+            Valor de submuestro perfiles en ancho. 1 significa que cojemos todas las muestras. 2 que cojemos una de cada 2, etc...
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.PacketSize">
+            <summary>
+            Tamaño de los paquetes que entrega el smartRay. 0 es auto
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.IsDebugMode">
+            <summary>
+            Si true se pueden obtener algunos mensajes en el sentinel para debugear
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.SmartRaySettings.DataTriggerinternal">
+            <summary>
+            Si 0 la frecuencia es la del pars, si valor utilizamos la frecuencia dels
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.SmartRaySettings.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.PhotoneoSettings">
+            <summary>
+            Photoneo Settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.PhotoneoSettings.AddTexture">
+            <summary>
+            Indica si guardamos el Texture
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.PhotoneoSettings.AddNormals">
+            <summary>
+            Indica si agregamos las normales
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.PhotoneoSettings.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.RealSenseSettings">
+            <summary>
+            Photoneo Settings
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.DepthXResolution">
+            <summary>
+            Resolucion X imagen profundidad
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.DepthYResolution">
+            <summary>
+            Resolucion Y imagen profundidad
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.ColorXResolution">
+            <summary>
+            Resolucion X imagen color
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.ColorYResolution">
+            <summary>
+            Resolucion Y imagen color
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.Exposure">
+            <summary>
+            Exposicion manual si no esta habiltiado el AutoExposure
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.EnableAutoExposureROI">
+            <summary>
+            Indica si utilziaremos la region de autoexposicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.X0">
+            <summary>
+            Coordenada ROI AutoExposure
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.Y0">
+            <summary>
+            Coordenada ROI AutoExposure
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.X1">
+            <summary>
+            Coordenada ROI AutoExposure
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.RealSenseSettings.Y1">
+            <summary>
+            Coordenada ROI AutoExposure
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.RealSenseSettings.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.ZividSetting">
+            <summary>
+            Clase que define los setttings del smartRay
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.ZividSetting.ExposureTime">
+            <summary>
+            Tiempo de exposicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.ZividSetting.Brightness">
+            <summary>
+            Tiempo de exposicion
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.ZividSetting.Iris">
+            <summary>
+            Tiempo de exposicion
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.ZividSetting.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.iBlueDriveSetting">
+            <summary>
+            Clase que define los setttings del smartRay
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.iBlueDriveSetting.Lights">
+            <summary>
+            Lista de configuracion iluminacion
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.iBlueDriveSetting.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.Light">
+            <summary>
+            Clase con las propiedades de configuracion de iluminacion dcm ibludrive
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Light.ID">
+            <summary>
+            ID de la luz
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.Light.OutIntensity">
+            <summary>
+            INtensidad 
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.Light.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.TriggerRegion">
+            <summary>
+            Clase con las propiedades de configuracion de iluminacion dcm ibludrive
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.X">
+            <summary>
+            X
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.Y">
+            <summary>
+            Y
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.ImageDelay">
+            <summary>
+            Imagenes a descartar despues de un trigger para hacer el siguiente. Si se relaciona con el fps se puede saber el tiempo
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.Threshold">
+            <summary>
+            Valor del histograma a partir del cual se detecta un cambio
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.TriggerRegion.AmountOfPixelsUpperThanThreshold">
+            <summary>
+            Cantdidad de pixeles minimo por encima del threshold para hacer un trigger
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.TriggerRegion.#ctor">
+            <summary>
+            Constructor por defecto
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.TriggerRegion.#ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="X"></param>
+            <param name="Y"></param>
+            <param name="Width"></param>
+            <param name="Height"></param>
+            <param name="ImageDelay"></param>
+        </member>
+        <member name="T:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings">
+            <summary>
+            Clase con las propiedades de configuracion de iluminacion dcm ibludrive
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.ImageDirectory">
+            <summary>
+            Ruta de imagen a generar, si no existe se genera una imagen de ruido
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.DelayBetweenPictures">
+            <summary>
+            Delay entre fotos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.PicturesPerCycle">
+            <summary>
+            Fotos entre ciclos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.DelayBetweenCycles">
+            <summary>
+            Delay entre ciclos
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.Width">
+            <summary>
+            Width
+            </summary>
+        </member>
+        <member name="P:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.Height">
+            <summary>
+            Height
+            </summary>
+        </member>
+        <member name="M:bcnvision.Data.BcnRecipe.BcnAcqDeviceSimSettings.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="T:ExtensionMethods.MyExtensions">
+            <summary>
+            Clase que define metodos de extension
+            </summary>
+        </member>
+        <member name="M:ExtensionMethods.MyExtensions.StringToDouble(System.String)">
+            <summary>
+            Convierte el string en un objeto
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

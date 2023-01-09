@@ -1,0 +1,229 @@
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\NLog.config
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Display.exe.config
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Display.exe
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Display.pdb
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\bcnvision.Data.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Controls.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Core.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\NLog.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Core.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\stdole.dll
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\bcnvision.Data.pdb
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\bcnvision.Data.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Core.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\NLog.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Core.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.xml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\MainWindow.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Views\Header.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\App.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display_Content.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display_MarkupCompile.cache
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display_MarkupCompile.lref
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\MainWindow.baml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Views\Header.baml
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.g.resources
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.Properties.Resources.resources
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csproj.GenerateResource.cache
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csproj.CoreCompileInputs.cache
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csproj.CopyComplete
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.exe
+H:\Desenvolupaments\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csprojAssemblyReference.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.exe.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\MainWindow.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Views\Header.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\App.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display_Content.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display_MarkupCompile.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display_MarkupCompile.lref
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.exe
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\NLog.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Display.exe.config
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Display.exe
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Display.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Controls.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Core.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\NLog.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Core.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\QWhale.Editor.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\QWhale.Syntax.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\QWhale.Syntax.Parsers.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\QWhale.Common.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\stdole.dll
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\bcnvision.Data.pdb
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\bcnvision.Data.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Core.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\NLog.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.Core.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro3D.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.xml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\MainWindow.baml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Views\Header.baml
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.g.resources
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.Properties.Resources.resources
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csproj.GenerateResource.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csproj.CoreCompileInputs.cache
+G:\Desarrollos\Maxion\Plastic-Omnium\source\Display\Display\obj\x64\Release\Display.csproj.CopyComplete
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\NLog.config
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Display.exe.config
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Display.exe
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Display.pdb
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\bcnvision.Data.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Controls.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Core.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Emgu.CV.Platform.NetStandard.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\NLog.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Emgu.CV.World.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\SharpDX.Mathematics.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Core.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\stdole.dll
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\bcnvision.Data.pdb
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\bcnvision.Data.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\bcnvision.Data.dll.config
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Core.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Emgu.CV.Platform.NetStandard.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\NLog.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Emgu.CV.World.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\SharpDX.Mathematics.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Core.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.xml
+C:\Users\User\Desktop\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.xml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.exe.config
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\MainWindow.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Views\Header.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\App.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display_Content.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display_MarkupCompile.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display_MarkupCompile.lref
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\MainWindow.baml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Views\Header.baml
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.g.resources
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.UserControl1.resources
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.Properties.Resources.resources
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.csproj.CopyComplete
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.exe
+C:\Users\User\Desktop\Display - ptb\Display\obj\x64\Release\Display.pdb
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\NLog.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Display.exe.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Display.exe
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Display.pdb
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\bcnvision.Data.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Controls.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Core.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Emgu.CV.Platform.NetStandard.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\NLog.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Emgu.CV.World.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\SharpDX.Mathematics.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Core.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\stdole.dll
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\bcnvision.Data.pdb
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\bcnvision.Data.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\bcnvision.Data.dll.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Core.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.CorePlus.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.Display.Controls.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Emgu.CV.Platform.NetStandard.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\NLog.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Emgu.CV.World.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\SharpDX.Mathematics.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Display.Controls.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Graphic.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageFile.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ImageProcessing.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.Core.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.FGGigE.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro3D.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\bin\x64\Release\Cognex.VisionPro.ToolGroup.xml
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.exe.config
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\MainWindow.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Views\Header.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\App.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display_Content.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display_MarkupCompile.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display_MarkupCompile.lref
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\MainWindow.baml
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Views\Header.baml
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.g.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.UserControl1.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.Properties.Resources.resources
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.csproj.CopyComplete
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.exe
+C:\Users\User\Desktop\Software\Display - ptb\Display\obj\x64\Release\Display.pdb
